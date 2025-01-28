@@ -1,0 +1,2562 @@
+0237101000002391790130000624415015000071702301501008189140150200867214015030093871701504010182140190101086120020000115363502001013025210210001394810022000145881102230014997150225001578915022700166151502600017435030262001758815026210181410402622018323040262301851404026240187090402625018892090264001924113026600197190602680019929060300002013949033000225893603301024445110330202499709035000254752203700026519240370102758604037100277772103711028752090400002912847042000314921404203032308100420403284613042150336040404220033784140422103454303042300346910804231035227070423203567908042330361800804234036698140423503733812042360380371304237038713050429003898404042910391579104292043522080429304406306042940444180704300044884250440104614915044020469421204403047562130440404836208044050488580604406049214060440704956214044080503460904409050819090441005126207044110516301304412052250110441305267405044140529360704415053328030441605347607044170538642004418054972090441905548607044800558900404481056114110448205662703044830567790404484056979030448505712604044860573210304487057461040449105764906044920579640404493058199030449405834705045000586471704501059558280450206098810045030615800804504061882090450506224003045060623880304507062536110450806288624045090639652504510065036070451106535807045120656882204513066744070451406717409045150676051304516068180130456006878313045610694592604580070736110458107126810045820717120304583071838070458407214613045850728031404586073464100458707395212045880744931304589075119110460007564103046010757990704602076222060470007658305047010768620704702077316140470307798753047040809380804705081354280470608278810047070834441204708084154060470908450513047100851140604711085448090471208602708047130865651204714087368130471508815714047160891270704717089575160471809065318047190917970904720092453120472109323711047220939500904723094512050472409481705047250951200804726095650050472709593404049000961471504901096948060490209728804049030974671204904098176150490509902505049060993881404907100100020490810024103049091004700204910100576030496010079903050001009344005600102840080630010333727063011046571006330105041150640010582569066001095451106700109974270680011130418069001120321509000112693560930111563411093021161621409303116899110930411741614097001181802809701119583050970211975504097031199130509704120135050970512035705097061205330509707120708050000012088000.m
+.m
+.p
+.o
+..
+MAIN MENU                                                              1000
+
+The MAIN  Menu is the top level of the program from which you  select  the
+type of function that you wish to perform.  All selections are made via the
+"Function  Keys", labeled (F1) thru (F10), on your keyboard. Press the
+ESCape key to return to the MAIN Menu from anywhere in the program, except
+that you must use (F10) to exit a HELP screen.
+
+After  making a selection, you will be directed to similar menus and  /  or
+data  entry screens for RF alignment or CodePlug data.  You must  initially
+load  data from a Radio (or  disk) via the (F3) GET/SAVE function before
+you will be permitted to CHANGE or VIEW any CodePlug data.
+
+Call MOTOROLA Product Services for problems not covered in your Radio
+Service Software manual or your Radio Service manual.
+.P
+MAIN MENU (cont)
+
+Function Key Descriptions:
+
+F1 - Additional  information  is available for every menu via the (F1) HELP
+     key.    Specific  HELP is also available for each field  on  all  data
+     entry  screens.  Generic help is available within any HELP screen  via
+     the MORE HELP function.  Use (F10) to exit the HELP screen.
+
+F2 - SERVICE  is a multi-level menu that permits access to Radio  ALIGNMENT
+     and   BOARD  REPLACEMENT  screens.   The Radio contains  no   internal
+     alignment  or tuning adjustments; all alignment is performed  via  the
+     SERVICE screens.
+.P
+MAIN MENU (cont)
+
+     A Radio must be connected to your computer via the RIB before you will
+     be  permitted  to  access the SERVICE screens.   All  SERVICE  screens
+     access  the CodePlug directly; therefore, you do NOT have to read  the
+     CodePlug  data (via the GET/SAVE functions) before using  the  SERVICE
+     screens.
+
+F3 - GET/SAVE is used to read CodePlug data from a Radio and/or retrieve an
+     archived CodePlug File from a diskette or hard disk for editing
+     purposes (via  the  CHANGE/VIEW function).  GET/SAVE is also  used  to
+     program edited CodePlug data back into the Radio, create an archived
+     file on a diskette (or hard disk), and to "clone" CodePlug data.
+.P
+MAIN MENU (cont)
+
+F4 - CHANGE/VIEW  is  a multi-level menu that is used to change,  view,  or
+     modify  CodePlug  features and option  configurations.     All  Radio 
+     CodePlug  parameters  are classified as either RADIO-WIDE  or  CHANNEL
+     related.  CHANGE/VIEW permits access to each of these categories.
+
+     Unlike  the  SERVICE  function, a CodePlug must be  loaded  into  your
+     computer's  memory (via the GET/SAVE functions) before you can  access
+     the CHANGE/VIEW screens.  You may CHANGE/VIEW a CodePlug File  without
+     a Radio connected.
+.P
+MAIN MENU (cont)
+
+F5 - A PRINT utility is available to produce permanent records of  CodePlug
+     configurations  and/or RF alignment settings.  A printer  is  required
+     and should be connected to your computer per your instruction manual.
+
+F6 - A FILE MAINTENANCE utility is available to create sub-directory paths,
+     delete old archive files, restore archive files, and create new
+     back-up files.
+
+F7 - Not Used.
+
+F8 - Not Used.
+.P
+MAIN MENU (cont)
+
+F9 - SETUP  is  used to configure your Radio Service  Software  to
+     your  particular  application.   Default  disk  drives,  communication
+     ports,  and  even  screen colors may be customized  to  your  specific
+     needs.
+
+F10 - Select  EXIT  to quit the program and return to  DOS.   Be  sure  all
+      desired CodePlug changes have been programmed back to the Radio,  and
+      that  an archive copy has been made.   Otherwise all changes will  be
+      LOST, since returning to DOS erases this data from  the  computer's
+      memory.
+
+      (F10) is also used to exit HELP screens.
+.P
+                            KEYBOARD OPERATION                         1300
+
+      TAB (or ENTER):         Advance Cursor to Next Data Field
+      Shift TAB:              Backup Cursor to Last Data Field
+      UP / DOWN Arrow Keys:   Increment / Decrement Value or Selection
+      LEFT / RIGHT Arrow:     Move Cursor Within Data Field
+      INSERT:                 Insert Space at Current Cursor Position
+      BACKSPACE:              Erase Data Within Field & Move Cursor Left
+      DELETE:                 Erase Current Character
+      PAGE UP / PAGE DN:      Scroll Displayed Data UP or DOWN
+      HOME:                   Move Cursor To Upper Left Data Field
+      F1:                     Additional Information (HELP)
+      F2 - F8:                Execute Labeled Function
+      F10:                    Return to the PREVIOUS Menu; Exit HELP screen
+      ESC:                    Return to the MAIN Menu
+.P
+FILE MAINTENANCE                                                       1500
+
+The  File Maintenance Menu is designed to help you manage your  files.   It
+can  be used to restore lost archived files from your back-up files, create
+new back-up files, create directory paths, and delete archived files.
+
+F3  - The SITE MAINTENANCE function will display a menu of  SITE FILE
+      utilities that allow the user to create a new Site File, get an
+      existing Site File from an archive directory, view/edit a Site File,
+      and save a Site File to a directory.
+
+F4  - The CREATE DIRECTORY PATH function will create any desired directory
+      path.
+.P
+FILE MAINTENTANCE (cont)
+
+F6  - The DELETE ARCHIVE FILE function will allow any CodePlug File to be
+      deleted from the CodePlug directory path.
+
+F7  - The RESTORE ARCHIVE function will restore lost CodePlug Files from a
+      backup disk.
+
+F8  - The UPDATE BACK-UP FILES function will create new back-up  copies  of
+      CodePlug Files.
+.P
+CREATE DIRECTORY PATH                                                  1501
+
+This  screen  will  create  any  desired  directory  path  by  adding  sub-
+directories that can be accepted by the DOS operating system.
+
+Only one sub-directory may be added at a time.
+
+Enter the new directory path and press the Enter key.
+
+An Example directory path would be:
+
+C:\MRSS\MAXLS\SITE\AREA_9 <Enter>
+
+This would add the sub-directory "AREA_9" under the sub-directory "SITE".
+.P
+DELETE ARCHIVE FILE                                                    1502
+The Delete Archive File screen allows you to delete any CodePlug File from
+the directory displayed in the Archive path.
+
+Function Key Descriptions:
+
+F3 - The CHANGE ARCHIVE function allows you to change the working CodePlug
+     Directory path.  Enter the new path and Press the Enter key.
+
+F7 - The  DELETE  FILE function  will delete the file associated  with  the
+     highlighted  serial number.  You can move the highlight cursor to  the
+     desired  serial number by using the Tab and Enter keys.  Press (F7) to
+     delete  the file.  The Computer will ask you to confirm the delete  by
+     pressing (F7) again.
+.P
+RESTORE ARCHIVE                                                        1503
+This  screen  is used to restore lost CodePlug Files from  a  Back-up  Files
+Disk.
+
+Function Key Descriptions:
+
+F3 - The  CHANGE SOURCE function is used to point to the Back-up  directory
+     path.  Enter the new path and press the Enter Key.
+
+F4 - The  CHANGE TARGET function is used to point to the CodePlug directory
+     where  you  want to store the recovered CodePlug File.  Enter the new
+     path and press the Enter Key.
+
+F7 - The  RESTORE  FILE  function  is  used  to  move  the  Back-up   File,
+     highlighted  on the display, to the directory displayed on the  Target
+     path.  You can move the highlight cursor to the desired serial  number
+     by using the Tab and Enter keys.
+.P
+UPDATE BACK-UP FILES                                                   1504
+The Update Back-up Files Screen allows you to create new back-up copies  of
+your CodePlug Files.
+
+F3 - The  CHANGE SOURCE function is used to point to the CodePlug directory
+     path that you want to back-up.  Enter the new path and press the Enter
+     Key.
+
+F4 - The  CHANGE TARGET function is used to point to the Back-up  directory
+     where  you  want to store the Back-up Files.  Enter the new  path  and
+     press the Enter Key.
+
+F7 - The  UPDATE FILE  function  will  copy  the selected  CodePlug  File
+     contained in the Source path to the directory of the Target path.
+.P
+MOTOROLA Radio Service Software             MaxTrac-LS                 1901
+
+Part # .............. RVN-4139              Model #........
+       (Includes 3.5" Diskettes)            Serial #.......
+Serial #.............                       Software Ver...
+Software Version.....
+Date.................                       Band...........
+
+Manual #.............68P8-1078C79    
+
+RIB Part #...........01-80353A74
+                     HLN9214A
+.P
+CABLE Part #'s
+
+  PC/XT -> RIB.......30-80369B71
+                     HKN9215A
+  AT    -> RIB.......30-80369B72
+                     HKN9216A
+  RIB   -> Radio.....30-80070N01
+                     HKN9217A
+.P
+SERVICE                                                                2000
+
+All Radio alignment and board replacement procedures are accessed from  the
+SERVICE  menu.   A Radio must be connected to your computer via a  RIB  and
+cables  and the Radio turned on before you will be permitted to access  the
+SERVICE screens.
+                             !!!  WARNING  !!!
+
+Do  NOT switch Radios in the middle of any SERVICE procedure.   Always  use
+the EXIT key to return to the previous menu screen before disconnecting the
+Radio.
+
+Call MOTOROLA Product Services for problems  not covered in your Radio
+Service Software manual or  your  Radio Service manual.
+.P
+SERVICE (cont)
+
+All  SERVICE screens read and program the Radio CodePlug directly;  you  do
+NOT  have to use the GET/SAVE functions unless you are editing or  printing
+data.   You will be prompted at each SERVICE screen to save the new  values
+before exiting the screen.
+
+Refer  to your Radio Service Software User's Manual  for  detailed
+service procedures.
+
+.P
+SERVICE (cont)
+
+Function Key Descriptions:
+
+F2 - The ALIGNMENT function is used to perform standard Radio alignment  on
+     Transmitter VCO Deviation, Reference Oscillator Warp, and  Transmitter
+     Power Set
+
+F6 - The  BOARD REPLACEMENT function is used for servicing the  Radio  when
+     board   repairs   and/or  replacement  are   required.    Step-by-step
+     instructions are given for all re-alignment procedures.
+.P
+BLANK BOARD INITIALIZATION                                             2001
+
+The Radio Service Software has determined that there is a Logic board  with
+an  uninitialized  EEPROM in this Radio.  The EEPROM  must  be  initialized
+before calibration.
+
+                              !!! WARNING !!!
+
+Once an uninitialized EEPROM is programmed with default information it  CAN
+NOT BE CHANGED AGAIN.  Make sure the information on the screen is correct.
+
+Four pieces of information are required to determine the default date to be
+programmed  into the EEPROM.  They are Model Name, Model Number,  Frequency
+Range, and Serial Number.
+.P
+BLANK BOARD INITIALIZATION (cont)
+
+Use  the UP/DOWN arrow keys to select Model Name and Number, and  Frequency
+Range. Enter the serial number from the keyboard.  This information  should
+be found on the Radio.
+
+Press (F8) to program the default data into the EEPROM.
+.P
+UPDATE MODEL DEFINITION FILE                                           2100
+
+Enter  the 30 digit data string provided with the service bulletin.   After
+entering  the data press Enter.  The data contains error  detection  coding
+and  if  the data is incorrectly entered it will be detected by  the  Radio
+Service  Software.   If  the data is not correct you will  be  prompted  to
+correct  the  data.  If the data entered is for a model not  known  to  the
+Radio  Service  Software you will need a newer version of the  software  to
+service  this model.  If the data entered is correct the default data  file
+will be updated.
+.P
+ALIGNMENT                                                              2200
+
+Refer  to your Radio Service Software User's Manual for  ALIGNMENT
+procedures.
+
+Standard  periodic  alignment procedures are performed from  the  ALIGNMENT
+Menu.  These include:
+
+              Transmitter VCO Deviation Adjustment
+              Reference Oscillator Warp Adjustment
+              Transmitter Power Set
+.P
+DEVIATION                                                              2230
+
+Refer  to  your Radio Service Software  User's  Manual  for  the
+DEVIATION ALIGNMENT procedure.
+
+Transmitter  Deviation is increased or decreased by first keying the  Radio
+via (F6), and then by pressing the UP/DOWN  arrow  keys  respectively.   A
+relative  deviation  value will be displayed, but  the  actual  transmitter
+deviation  must  be determined from your service monitor.  The  Radio  will
+transmit  on  the test frequencies displayed on the screen  and  should  be
+terminated into a 50 ohm load or service monitor.
+
+Using  the UP/DOWN arrow keys, adjust Tx Deviation per your User's  Manual.
+Press (F6) again to de-key the Radio, and then press (F8) to program the
+value to the Radio.
+.P
+REFERENCE OSCILLATOR                                                   2250
+
+Refer  to  your Radio Service Software  User's  Manual  for  the
+REFERENCE OSCILLATOR ALIGNMENT procedure.
+
+The  Reference Oscillator is warped by first keying the Radio via (F6), and
+then  by  pressing the UP/DOWN arrow keys respectively.   A  relative  warp
+position  will be displayed, but the actual transmitter frequency  must  be
+determined from your frequency counter or service monitor.  The Radio  will
+transmit  on  the  test frequency displayed on the  screen  and  should  be
+terminated into a 50 ohm load or service monitor.
+
+Using  the UP/DOWN arrow keys, adjust the Reference Oscillator Warp to  the
+displayed frequency.  Press (F6) again to de-key the Radio, and then press
+(F8) to program the value to the Radio.
+.P
+TRANSMITTER POWER                                                      2270
+
+Refer  to  your Radio Service Software  User's  Manual  for  the
+TRANSMITTER POWER ALIGNMENT procedure.
+
+Transmitter Power is adjusted by first keying the Radio via (F6), and then
+by pressing the UP/DOWN arrow keys to increase/decrease power respectively.
+A  relative Tx Power value (not watts!) will be displayed, but  the  actual
+transmitter power output must be determined from your service monitor.  The
+Radio  will  transmit  on the test frequency displayed on  the  screen  and
+should be terminated into a 50 ohm load or service monitor.
+
+Using the UP/DOWN arrow keys, adjust the Transmitter Power per your  User's
+Manual.   Press (F6) again to de-key the Radio, and then press (F8) to
+program the value to the Radio.
+.P
+BOARD REPLACEMENT                                                      2600
+
+Refer to your Radio Service Manual for BOARD REPLACEMENT procedures.
+.P
+LOGIC BOARD or RF BOARD                                                2620
+
+Refer  to  your Radio Service Manual  for  LOGIC/RF  BOARD  REPLACEMENT
+procedures.
+
+This  menu is structured for execution of the calibration procedures  in  a
+top-to-bottom order to ensure proper calibration.
+
+Steps  7 & 8 are model-dependent and will be by-passed for  non  applicable
+models.
+
+                             !!!  WARNING  !!!
+
+After  Step  8  is completed, the Radio CodePlug should be  READ  and  then
+(SAVED) via the GET/SAVE functions.
+.P
+REFERENCE CRYSTAL DATA                                                 2621
+
+Refer  to your Radio Service Software User's Manual  for  entering
+the Crystal Coefficient Data.
+.P
+CALIBRATE Tx POWER                                                     2622
+
+Refer  to  your Radio Service Software  User's  Manual  for  the
+TRANSMITTER POWER CALIBRATION procedure.
+.P
+CALIBRATE Tx DEVIATION                                                 2623
+
+Refer  to  your Radio Service Software  User's  Manual  for  the
+TRANSMITTER DEVIATION CALIBRATION procedure.
+.P
+PL DEVIATION                                                           2624
+
+Refer  to  your Radio Service Software User's Manual  for  the  PL
+DEVIATION ALIGNMENT procedure.
+.P
+DPL DEVIATION                                                          2625
+
+Refer  to  your Radio Service Software User's Manual for  the  DPL
+DEVIATION ALIGNMENT procedure.
+
+                             !!!  WARNING  !!!
+
+After  Step  8  is completed, the Radio CodePlug should be  READ  and  then
+(SAVED) via the GET/SAVE functions.
+.P
+POWER AMPLIFIER BOARD                                                  2640
+
+Refer  to  your Radio Service Manual for  the  POWER  AMPLIFIER  BOARD
+REPLACEMENT procedures.
+
+This  menu is structured for execution of the calibration procedures  in  a
+top-to-bottom order to ensure proper calibration.
+
+
+                             !!!  WARNING  !!!
+
+After  Step  2  is completed, the Radio CodePlug should be  READ  and  then
+(SAVED) via the GET/SAVE functions.
+.P
+DISPLAY BOARD                                                          2660
+
+Refer  to  your Radio Service Manual for the DISPLAY  BOARD  REPLACEMENT
+procedure.
+
+No ALIGNMENT procedures are required.
+.P
+SWITCH BOARD                                                           2680
+
+Refer  to  your Radio Service Manual for the  SWITCH  BOARD  REPLACEMENT
+procedure.
+
+No ALIGNMENT procedures are required.
+.P
+GET/SAVE                                                               3000
+
+The  GET/SAVE functions are used to transfer CodePlug data from your  Radio
+or a CodePlug File into your computer in order for you to Change, View,  or
+Print it.  GET/SAVE functions also permit you to PROGRAM modified data back
+into your Radio or to SAVE a copy of the CodePlug data in a CodePlug File.
+
+                             !!!  WARNING  !!!
+
+Do  NOT  turn  off  the Radio or disconnect  it  from  the  computer  while
+attempting  to PROGRAM the CodePlug.  Interrupting the programming  process
+WILL destroy the CodePlug contents and completely DISABLE the Radio!
+.P
+GET/SAVE (cont)
+
+Function Key Descriptions:
+
+F2 - The READ CODEPLUG function reads the information (data) stored in  the
+     Radio CodePlug (EEPROM) and transfers it to the computer's memory.
+
+     A  Radio and RIB must be properly connected to the computer and  power
+     turned on before you attempt the READ function.
+
+     The  time  required to READ a CodePlug will depend  directly  on  your
+     computer  type  and  the size of the CodePlug you  are  reading.   The
+     status of the READ operation is displayed at the bottom of the screen.
+.P
+GET/SAVE (cont)
+
+F3 - The  GET  FILE  function is used to retrieve a CodePlug File  from an
+     archive directory to the computer's memory.  Once retrieved, the
+     CodePlug data may be  modified via the CHANGE/VIEW functions and SAVED
+     back into the archive/backup directories, or PROGRAMMED into a Radio.
+
+F7 - The  SAVE FILE function is used to create (or update) a copy of the
+     computer memory's CodePlug information to a disk file.  An archived
+     copy of the CodePlug data for every Radio installed or serviced is
+     STRONGLY recommended in order to be able to quickly restore customer
+     information is case of a Radio CodePlug failure.
+.P
+GET/SAVE (cont)
+
+F8 - The PROGRAM CODEPLUG function is used to transfer CodePlug information
+     from the computer's memory to the Radio CodePlug.
+
+     A  Radio and RIB must be properly connected to the computer and  power
+     turned on before you attempt the PROGRAM function.
+
+     The  time required to PROGRAM a CodePlug will depend directly on  your
+     computer  type and the size of the CodePlug you are programming.   The
+     status  of  the PROGRAM operation is displayed at the  bottom  of  the
+     screen.
+.P
+GET FILE                                                               3300
+
+The GET FILE  function is used to retrieve a CodePlug File from an archive
+directory to the computer's memory.  Once retrieved, the CodePlug data may
+be  modified via the CHANGE/VIEW functions and SAVED back into the archive
+and/or backup directories, or PROGRAMMED into a Radio.
+
+Use  the TAB (or ENTER) key to select the serial number of the Radio to  be
+retrieved.    The  corresponding  model  number,   customer  identification
+information,  and  the date the file was made will be displayed across  the
+middle of the screen.  The (F8) function key is used to GET the  selected
+file as described below.
+.P
+GET FILE (cont)
+
+Function Key Descriptions:
+
+F2 - The  CHANGE  ARCHIVE function is used to specify  the  directory  path
+     where  the archived file is to be located.   The default archive  path
+     will  always be the specified default path  from the SETUP  Menu  (See
+     MAIN MENU, (F9) ).  This PATH must NOT include a file name.
+
+F5 - The  CLONE function copies the Serial Number and Tuning Data  from  an
+     archived CodePlug File and overlays this information over the current
+     CodePlug data in the computer's memory.
+.P
+GET FILE (cont)
+
+F6 - The  ENTER S/N (serial number) function permits you to directly enter
+     the  serial number of the file you wish to retrieve.   After  entering
+     the  serial  number,  press  ENTER and the computer  will  search  the
+     specified  directory path to locate the file for that  serial  number.
+     The (F8) function  key is used to GET the selected file  as  described
+     below.
+
+F8 - The GET SELECTED function is used to GET the archived file highlighted
+     on the screen.   After the file is retrieved, the computer will return
+     to the GET/SAVE menu.
+.P
+ARCHIVE PATH                                                           3301
+
+Enter the directory path where the archived CodePlug File is located.
+
+The  default archive path will always be the specified default  path   from
+the SETUP Menu (See MAIN MENU, (F9) ).
+
+Please  refer to your computer owner's manual for a complete description of
+directories and path names.  A PATH name can include an optional Disk Drive
+specifier (e.g. "A:\ARCHIVE2" = Sub-Directory ARCHIVE2 on Drive A:).
+In this RSS, the PATH must NOT include a File name.
+.P
+SERIAL NUMBER                                                          3302
+
+Enter  the  serial  number of the CodePlug archive File that  you  wish  to
+retrieve and press ENTER.  The computer will search the specified directory
+path  to  locate the file if it exists.   Only the specified path  will  be
+searched.
+
+Once the  file is located, press (F8) to GET the SELECTED file.   A Status
+message will inform you if the file does not exist on the specified path.
+.P
+CLONING CODEPLUG                                                       3500
+
+The Clone function copies the Serial Number and Tuning Data from a CodePlug
+File and overlays this information over the current data in the  computer's
+memory.  To use the clone function, use the following steps:
+
+1.   Go to the GET/SAVE Screen.
+2.   Load the Master Radio or archived file into the computer  memory  with
+     the GET/SAVE screen functions (F2) or (F3).
+3.   Press function (F5) and the Clone File screen will be displayed.
+4.   Select the desired archive file to be cloned.  Only Radios of the same
+     model  may  be cloned.  Any attempt to mix models will  result  in  an
+     error message.
+5.   If  necessary, go to the CHANGE/VIEW screens to  make  any  additional
+     changes.
+.P
+CLONING CODEPLUG (cont)
+
+6.   Save the Radio CodePlug data by saving as a CodePlug File or saving to
+     the Radio to be cloned using the GET/SAVE screen.
+
+This completes the procedure for cloning an archived CodePlug File or
+Radio.
+.P
+SAVE FILE                                                              3700
+
+The SAVE FILE function is used to create (or update) an archive copy of the
+CodePlug information onto a diskette or hard disk.  If you are creating the
+file  on  a hard disk,  you will automatically be requested to backup  the
+data.
+
+An optional 15-character name can be given to a CodePlug File to facilitate
+tracking.
+
+You  are  STRONGLY  encouraged to make an archived  copy  of  every  Radio
+installed  or  serviced  in order to be able to  quickly  restore  customer
+information is case of a CodePlug failure.
+.P
+SAVE FILE (cont)
+
+Function Key Descriptions:
+
+F2 - The  CHANGE  ARCHIVE function is used to specify  the  directory  path
+     where  the archived file is to be located.   The default archive  path
+     will  always be the specified default path  from the SETUP  Menu  (See
+     MAIN MENU, (F9) ).
+
+F8 - The SAVE FILE function executes the save process.   Do NOT press (F8)
+     until you have entered the customer identification information.
+.P
+CUSTOMER ID                                                            3701
+
+Enter  an  optional  15-character  (max)  name  for  the archived  file  to
+facilitate tracking purposes.
+.P
+BACKUP FILE                                                            3710
+
+The BACKUP FILE procedure is used to make a backup copy of any archive file
+SAVED on a hard disk.   If you are archiving to a diskette, you will NOT be
+prompted  for a backup.
+
+Diskette  backups should be handled via standard DOS file copy  procedures.
+Refer to your computer user's manual for additional information.
+
+Function Key Descriptions:
+
+F2 - The CHANGE BACKUP path function is used to specify the directory  path
+     where the backup file is to be located.   The default backup path will
+     always  be  the specified default path  from the SETUP Menu (See  MAIN
+     MENU, (F9) ).
+.P
+BACKUP FILE (cont)
+
+F8 - The MAKE BACKUP function executes the backup process.  After verifying
+     that  the Backup path is correct and the backup diskette is installed,
+     press (F8) to make the backup copy. You will automatically be returned
+     to the GET/SAVE menu.
+.P
+BACKUP PATH                                                            3711
+
+Enter  the  directory path where the backup file is to  be  located.
+
+The default backup path will always be the specified default path  from the
+SETUP Menu (See MAIN MENU, (F9) ).
+
+Please  refer to your computer user's manual for a complete description  of
+directories and path names.
+.P
+CHANGE/VIEW                                                            4000
+
+CHANGE/VIEW is a multi-level menu that is used to change,  view,  or modify
+CodePlug features and option configurations.    All CodePlug parameters are
+classified  as either RADIO-WIDE or CHANNEL related.   CHANGE/VIEW  permits
+access to each of these categories.
+
+Unlike the SERVICE function, a CodePlug must be loaded into your computer's
+memory from either a Radio or a CodePlug File (via the GET/SAVE functions)
+before you can access the CHANGE/VIEW screens.  You may CHANGE/VIEW a
+CodePlug File without a Radio connected.
+.P
+CHANGE/VIEW (cont)
+
+Warning:  CHANGE/VIEW does NOT actually modify the Radio CodePlug data, but
+          instead it modifies a copy of the data retrieved from the Radio
+          CodePlug or archived CodePlug File via the GET/SAVE functions.
+
+          After  all  CHANGE/VIEW modifications  are  completed,  you  MUST
+          return to the GET/SAVE menu and PROGRAM the changes back into the
+          Radio  or  SAVE  them  to a  new archived file.   Otherwise  the
+          modifications will be LOST when you turn off your computer.
+.P
+CHANGE/VIEW (cont)
+
+Function Key Descriptions:
+
+F2 - RADIO-WIDE  Configuration is used to CHANGE/VIEW Radio parameters  and
+     options that affect OVERALL Radio operation, i.e. those NOT related to
+     a specific MODE (e.g. Time Out Timer).
+
+F3 - SITE BLOCK Add/Delete/View is used to VIEW Radio Site Block data such
+     as repeater numbers, their corresponding frequencies and the AREA mode.
+
+     Site Blocks are ADDED here by reading Site Files from the SITE archive
+     directory. Site Block information CANNOT be changed here.  Use the
+     FILE MAINTENANCE : SITE FILE menu to create / modify Site File data.
+.P
+CHANGE/VIEW (cont)
+
+F4 - SITE ACCESS BLOCK Add/Delete/Update is used to CHANGE/VIEW Site Access
+     Block data such as Mode-specific IDs, universal IDs, home repeater,
+     flags and Group information.  Site Access Blocks are ADDED, DELETED and
+     MODIFIED here.
+
+F5 - MODE Configuration is used to CHANGE/VIEW channel specific information
+     such as frequencies, squelch type, squelch codes and scan lists.
+
+     For TRUNKING Modes, you MUST also select a Site Block and a Site Access
+     Block on the MODE Configuration screen.
+.P
+CHANGE/VIEW RADIO-WIDE CONFIGURATION                                   4200
+
+RADIO-WIDE  Configuration  is  used to  CHANGE/VIEW  Radio  parameters  and
+options that affect overall Radio operation, i.e. those not just related to
+a specific channel such as the time-out-timer.
+
+Warning:  CHANGE/VIEW does NOT actually modify the Radio CodePlug data, but
+          instead it modifies a copy of the data retrieved from the Radio
+          CodePlug or archived CodePlug File via the GET/SAVE functions.
+
+          After  all  CHANGE/VIEW modifications  are  completed,  you  MUST
+          return to the GET/SAVE menu and PROGRAM the changes back into the
+          Radio  or  SAVE  them  to a  new archived file.   Otherwise  the
+          modifications will be LOST when you turn off your computer.
+.P
+TIME-OUT TIMER (TOT)                                                   4203
+
+If Enabled, the TOT will limit the maximum time allowed for any  continuous
+transmission  from  1  to 255 seconds on all  transmit  channels.   Receive
+operation is not affected by the TOT.
+
+Use  the UP/DOWN arrow keys to select the desired time.  You will  see  the
+display  change  in  one second increments.  The data  field  may  also  be
+changed  by typing the desired time or "OFF" from the keyboard.  The  range
+is from OFF to 255 seconds.
+.P
+SECOND PRIORITY SCAN                                                   4204
+
+Only  certain models of the Radio are capable of  scanning  receive
+mode  frequencies.  Scanning Radios have two priority frequencies that  are
+scanned  periodically  whether or not there is channel activity.   In  Mode
+Slaved  Scan the first priority is the current Mode displayed when Scan  is
+activated.   The  second  priority is Radio wide and  can  be  selected  or
+disabled on this screen.
+
+You  may enter the Mode Number for the desired second priority or  you  may
+enter 'OFF' which will remove the second priority.  You may also use the up
+and  down arrow keys to select the desired Mode.  If the Mode  is  invalid,
+you will be prompted for a new value.
+.P
+SERIAL NUMBER                                                          4215
+
+The Radio Serial Number, which is stored in the CodePlug, can be viewed but
+cannot be changed.
+.P
+EMERGENCY ENABLE                                                       4220
+
+Emergency  is a "Radio Wide" feature instead of a "Mode" feature  to  allow
+Emergency  to  be available at all times even when the Radio is on  a  non-
+signalling  mode.  Use  the  Up/Down arrow keys to select a  "standard"  or
+"silent" emergency or no,  "none",  emergency.  It is recommended that this
+field  be  set  to "NONE" whenever there is NO  Emergency  Switch  function
+enabled on the "Other Accessory" screen.
+
+                                NOTE !!!
+
+It is important to have an emergency switch connected to the Radio when the
+CodePlug is changed.  If you do not the Radio will immediately go into  the
+Emergency sequence and turn on the transmitter.
+.P
+REVERT                                                                 4221
+
+No ONLINE help available.  Please refer to the RSS User Manual.
+.P
+PRIORITY SAMPLING RATE                                                 4230
+
+When the channel scan is stopped on a non-priority channel, it periodically
+"looks back" at the priority channel for activity.  The rate at which  this
+"look  back"  occurs  is  the priority sample  rate.   The  are  two  rates
+available,  slow  and fast.  Slow is 1.5 seconds between "look  backs"  and
+Fast is 0.5 seconds between "look backs".  Slow is the default.  To  change
+the sample rate use the up and down arrow keys to select the rate.
+.P
+HANDSET                                                               4231
+
+The  Radio needs to know when a Handset is connected to the Radio in  order
+to  know when to mute the loudspeaker.  The loudspeaker is muted  when  the
+Handset  is removed from the hang-up cup.  To enable Handset  muting,  move
+the  cursor  to the Handset data field and use the up and  down  arrows  to
+select "N" for no Handset muting and "Y" for Handset muting.
+.P
+SCAN TALK BACK                                                        4232
+
+The conventional channel scan has the capability to revert to the home mode
+(home  revert) or stay on the busy channel (talk back) when the  microphone
+is removed from the hang-up clip.  These capabilities are now  programmable
+from  Radio  Service  Software.  The default is  home  revert.   To  change
+capabilities  use the up and down arrow keys to select "N" for home  revert
+scan and "Y" for talk back scan.
+.P
+ACC INTERNAL                                                           4233
+
+Internal  accessories are accessories that are physically placed inside the
+Radio and do not actually use the connector.  Connections are made internal
+to  the Radio but still use the pin functions.  At this time there is  only
+one Internal Accessory.  This is the DTMF decoder board. The decoder should
+be installed in the Radio BEFORE programming. Use the Up/Down arrow keys to
+either enable or disable the DTMF decoder board.
+.P
+ACC EXTERNAL                                                           4234
+
+External Accessories interface to the Radio through the Expanded  Accessory
+Connector.  Using  the  Up/Down  arrow keys will scroll  through  the
+external accessories;
+
+1.  Public Address         2.  Remote              3. General I/O,
+4.  Phone Patch            5.  Moden Paging        6. RPB50 Interface.
+
+                        !!!! WARNING !!!!
+
+Once  ANY  of the external accessory information has been changed from  the
+default  values,  the  information  will be lost  if  you  switch  external
+accessories using the Up/Down arrow keys.
+.P
+OTHER RADIO WIDE                                                       4235
+
+  These  enable the different types of calls that can be made from the call
+list as you press the Select button on the front panel of the Radio.  Voice
+Selcall  is represented by "SC" on the front panel of  the  Radio.  Call
+Alert is represented by "CA" on the front panel of the Radio. Radio Check
+is represented by "CH" on the front panel of the Radio (ONLY MDC-1200 call
+list  entries).  Only  turn on the particular types of calls your  customer
+needs.
+
+Note  :  On  2  channel Radios,  it is not recommended that  any  of  these
+features be turned on because there is no Select button to access them.
+.P
+USER SCAN TYPE                                                         4236
+
+The three scan types are Normal, Revert and Search.
+
+Revert Scan will cause the Radio to move immediately to the mode and group
+which you receive a call on.  The Radio will remain on this new mode/group
+until the next call is received, but will continue to scan.  This is most
+appropriate for dispatcher control stations.
+
+Search Scan will cause the Radio to lock onto the first system that it
+detects a valid home channel.  If this home channel is lost for more than
+three scan cycles, the Radio will begin scanning for a new system.  This
+is best suited for roaming applications.
+.P
+SCAN HANG TIME                                                         4237
+
+This is the amount of time that the Radio will monitor the last scanned
+channel after the carrier has dropped.  The default value is 2.5 seconds.
+The range is 0.0 (off) to 4.3 seconds.
+.P
+OPTION CONNECTOR                                                       4290
+
+No ONLINE help available.  Please refer to the RSS User Manual for further
+information.
+.P
+FUNCTION DESCRIPTION                                                   4291
+                             !! WARNING !!
+
+Mismatching  the Data Direction with the accessory may result in damage  to
+the  Radio  or accessory or both.  Therefore,  use caution  when  selecting
+functions for non standard accessories.  The direction is determined by the
+selected function and is not programmable.  ALWAYS program the Radio BEFORE
+connecting  a new option.  Also verify that the new option does not  exceed
+the limits of the Radio's drive circuitry. In general, the limits look like
+this:
+                    outputs:  open collector, 200 mA amximum drive
+                              with a saturation voltage of 0.3 V max.
+                    inputs:   0 to 16 Volts, signals below 1.0 V logic low,
+                              signals above 3.0 V are logic high.
+.P
+  Each  programmable  pin  has a limited number of functions  that  can  be
+assigned  to  it.  Some  internal and  external  accessories  need  certain
+functions  in  order  to  operate  properly.  These  functions  are  called
+'dependent'  functions.  Dependent functions will NOT changed and will  get
+skipped.  Remaining functions are 'independent' of specific accessories and
+are  called  'independent'  functions.   "General  I/O"  with  no  internal
+accessory allows the most programmable 'independent' functions.
+
+WARNING:  Do not use the SAME 'independent' function more than once on this
+          screen.  The Radio will not respond as expected to two or more of
+          the same 'independent' functions.
+.P
+The following is a list of the available independent functions:
+
+function: Null
+  pin(s): 4,6,8,9,12,14
+ purpose: The  correct  definition  for any pin which is not  being  used.
+
+function: Tx PL Inhibit
+  pin(s): 6,8,9,12,14
+ purpose: An input which can inhibit the generation of PL while the  Radio
+          is  transmitting.  A typical application would be 'stripping PL'
+          when sending a page from an attached paging  terminal.  Normally
+          this  line should be toggled prior to asserting PTT,  since  the
+          Radio  will need to dekey and rekey if the line is toggled while
+          transmitting.
+.P
+function: TOC Disable
+  pin(s): 6,8,9,12,14
+ purpose: This input to the Radio will disable the generation of PL reverse
+          burst and DPL turn off code when a transmission ends. This can be
+          useful  for some base station and phone patch  setups.
+
+function: Tx Audio Mute
+  pin(s): 6,8,9,12,14
+ purpose: This  input to the Radio mutes the MIC AUDIO input,  allowing an
+          external  option to drive the FLAT TX AUDIO INPUT.  This is  for
+          connections to paging encoders,  data terminals,  etc. To ensure
+          that the transmit deviation never exceeds the legal limits,  the
+          device  connected should not gate audio to FLAT TX  AUDIO  INPUT
+          unless  Tx  Audio  Mute is asserted FIRST.
+.P
+function: RX Audio Mute
+  pin(s): 6,8,9,12,14
+ purpose: Used to mute the Radio when data is being received or as a high
+          priority mute.
+
+function: Special Off Hook
+  pin(s): 6,8,9,12,14
+ purpose: Remote monitor plus speaker enable.
+
+function: I/O Off Hook
+  pin(s): 6,8,9,12,14
+ purpose: This input and the hook are OR'ed together.
+.P
+function: Data PTT
+  pin(s): 6,8,9,12,14
+ purpose: When asserted, this will make the Radio transmit with PTT IDs
+          stripped, and will also not allow trunking system busy tones to
+          activate.
+
+function: External Alarm
+  pin(s): 4
+ purpose: An  output  which can drive a normally  open  relay.  The  relay
+          connects to the vehicle horn/lights. Driven by an open collector
+          transistor which saturates to A+,  with the capability to source
+          200 mA.
+.P
+function: PL & CSQ/Trunk Detect
+  pin(s): 4,8,12,14
+ purpose: This output from the Radio indicates that a carrier with correct
+          PL is present.
+
+function: CSQ Detect
+  pin(s): 4,8,12,14
+ purpose: This  output from the Radio indicates that there is a carrier on
+          the channel.
+
+function: Clear-To-Send
+  pin(s): 4,8,12,14
+ purpose: This is an output used to show that the Radio is not transmitting
+          and a remote device may have control for sending data.
+.P
+DEBOUNCE                                                               4292
+
+  Debounce determines whether the Radio waits a short period of time before
+acting.  This  is  done to make sure that any mechanical switch  bounce  is
+accounted for.  It is only active on INPUTS. Debouncing is usually required
+for  pins that are driven by relays or other mechanical devices.  Functions
+that  have Debounce as "NO" should not use relays or mechanical devices  to
+drive them. Use the Up/Down arrow keys to enable "Yes" or disable "No".
+.P
+ACTIVE LEVEL                                                           4293
+
+  Active  Level determines whether the pins will become active on either  a
+high voltage or a low voltage.  Some non standard accessories may not  have
+the  same active level as the default active level.  Use the Up/Down  arrow
+keys to enable "High" or disable "Low".
+.P
+POWER UP DELAY                                                         4294
+
+  The Radio ignores the active levels on the programmable pins during power
+up.  This  is done to give the accessory device time to initialize  itself.
+The time that the Radio delays is the Power Up Delay.  The default time for
+this  delay  is 0.2 seconds.  If this delay needs to be  changed,  use  the
+Up/Down arrow keys. This value can range from 0.0 seconds to 4.3 seconds.
+.P
+RADIO SITE BLOCKS                                                      4300
+
+This screen is used to view RADIO SITE BLOCK information, add Site Blocks
+to the Radio from Site Files, and delete Site Blocks from the Radio. All
+Site Blocks in the Radio can be viewed from this screen by selecting (F3)
+and (F4).
+
+New Sites Blocks can be ADDED to the Radio by selecting (F8). The CURRENTLY
+DISPLAYED Site Block can be DELETED from the Radio by selecting (F7).
+
+Site Block information CANNOT be edited/changed here. Use the
+FILE MAINTENANCE : SITE FILE sub-menus to load, modify and save the Site
+File data, then return to this menu to ADD the modified Site File as a
+(new/replacement) Site Block.  This restriction keeps all Radios
+programmed with consistent Site data.
+.P
+Please note that each Site Block added to the Radio is given a number. The
+first will be assigned SITE #1. The second will be assigned as SITE #2 and
+so on.
+
+                         !!!!!  WARNING  !!!!!
+
+When  you DELETE a Site Block, all references to that Site Block must be
+removed in the MODE menu. When a Site Block is deleted from the Radio, the
+Site Block numbers may SHIFT.  Therefore, a re-edit of the mode information
+is required to maintain consistency.
+.P
+RADIO SITE ACCESS BLOCK #                                              4401
+
+The Access Block number indicates the Site Access block number assigned  to
+the information currently displayed on the screen.  These numbers are  used
+to tie a user MODE to a particular set of Site Access data.
+
+Please note that each Site Access Block added to the Radio is given a
+number. The first will be assigned SITE #1. The second will be assigned as
+SITE #2 and so on, up to the maximum number of Trunking MODES allowed.
+
+                          !!!  Warning  !!!
+
+When you DELETE a Site Access Block, all references to that Block must be
+removed in the MODE menu.  When an Access Block is deleted from the Radio,
+the Block numbers may SHIFT.  Re-edit MODE data to maintain consistency.
+.P
+HOME REPEATER                                                          4402
+
+The Home Repeater field indicates a repeater number to be used as the home
+channel for this access block.  When the Access Block # is tied to a user
+MODE  that  mode  will then monitor the frequency that  matches  this  Home
+Repeater for trunked system activity.
+
+                         !!! Warning !!!
+
+The Home Repeater field can be any value between 1 and 20.  Therefore, when
+matching Site Blocks and Site Access Blocks in user Mode programming,
+always use an access block with a valid Home Repeater field for that Site.
+.P
+UNIVERSAL ID #                                                         4403
+
+The  Universal ID number is priority number assigned to the currently  dis-
+played  universal  ID data. The value of the Universal ID number  may  vary
+from 0 to 4 in each Access Block.  Each number indicates a priority for the
+receive  ID.   Universal  ID #1 has the highest priority.  ID  #2  has  the
+second  priority and so on through ID #4.  The selected group decode  range
+will be the lowest priority.
+
+The Universal ID # data is listed immediately below the Universal ID #.  If
+no Universal ID numbers exist for a given access block, the  Universal  ID
+data may not be accessed.  Furthermore, if no universal IDs exist, the only
+valid decode for a given group selection will be the Group ID range.
+.P
+UNIVERSAL ID                                                           4404
+
+The  Universal ID is an ID number that is considered an ID match  according
+to the Universal ID data listed immediately below.  A match to this ID will
+only  occur if the decoded assignment message contains an ID  that  matches
+the  Universal ID and the decoded message contains a home  repeater  number
+that  matches the Home Repeater for this Access Block. Valid  Universal  ID
+numbers are 0 through 250.
+.P
+CALL LIGHT                                                             4405
+
+The  Call Light feature is enabled by setting the editable field to  a  "Y"
+using  the up or down arrow keys.  When enabled and selected by  user  MODE
+and/or  Group  Number  the Call Light will begin flashing  with  the  Radio
+decodes the Universal ID or Rx ID range.
+.P
+INTERCONNECT                                                           4406
+
+The Interconnect  feature is enabled by setting the editable field to a "Y"
+using  the up or down arrow keys.  When enabled and selected by  user  MODE
+and/or Group Number the Radio will follow interconnect message protocol for
+transmit and receive operations.
+.P
+TRANSPOND                                                              4407
+
+The  Transpond feature indicates that the Radio will  send in  a  transpond
+with it's current transmit ID whenever a message for the Universal ID or RX
+ID  group range ends.  This field is enabled by setting the editable  field
+to a "Y" with the up or down arrow keys.  For example, this may be used to
+determine which Radios in a System are currently ON and IN-RANGE.
+
+                           !!! Warning !!!
+
+The  Transpond feature should not be enabled for any Universal ID  that  is
+also a Tx ID for any Group Number selection within this Site Access  Block.
+The Transpond feature should also not be enabled for any Group Rx ID  range
+that includes the Tx ID for that Group Number.
+.P
+TRANSMIT INHIBIT                                                       4408
+
+The  Transmit Inhibit feature is enabled for a particular Universal  ID  by
+selecting  a "Y" in the editable field for Transmit Inhibit.  When  enabled
+that specific Universal ID is only active for the Transmit Inhibit feature.
+All other features are ignored.
+
+Transmit  Inhibit prevents the Radio from transmitting on the current  mode
+for 3 seconds after the ID has been received.
+.P
+GROUP NUMBER                                                           4409
+
+The  Group  Number  indicates  the user group  position  for  the  features
+described  in  the  Group Number data.  The Group  Number  data  is  listed
+immediately  below the Group Number. These include the RX Low ID,  RX  High
+ID, Tx Inhibit Low ID, etc.
+
+Up  to  10  groups may be added to each Site Access  Block  with  the  SITE
+UTILITY under (F8).
+.P
+RX LOW ID, RX HIGH ID                                                  4410
+
+The  ID range indicated by Rx Low ID and Rx High ID is the valid  range  of
+IDs  accepted  as valid decodes for the currently  selected  Group  Number.
+Valid RX Low ID and RX High ID decode numbers range from 000 through 250.
+
+The Rx LOW ID cannot be greater than the Rx HIGH ID.
+.P
+TX INHIBIT LOW ID, TX INHIBIT HIGH ID                                  4411
+
+The  ID range indicated by Tx Inhibit Low ID and Tx Inhibit High ID is  the
+range  of IDs accepted as a valid transmit inhibit indication.  The  decode
+of  an ID within this range will prevent the Radio from transmitting for  3
+seconds.
+
+Valid TX Inihibit Low ID and TX Inhibit High ID decode numbers range from
+000  and 250.  A value of 000 in both the Tx Inhibit  Low  and  Tx Inhibit
+High fields indicates that there is no Tx Inhibit ID range for this group
+selection.
+
+The Tx LOW ID cannot be greater than the Tx HIGH ID.
+.P
+
+TX ID                                                                  4412
+The  Tx  ID is the transmit ID for the currently selected Group  Number  in
+this  access block.   The Radio will use this transmit ID whenever  a  user
+MODE is selected that is tied to this access block and the indicated Group
+Number.
+
+Valid Tx ID numbers are 000 through 250.
+
+
+The Tx LOW ID cannot be greater than the Tx HIGH ID.
+.P
+ALL GROUP SCAN                                                         4413
+
+This option enables the user selectable all group scanning feature.
+All group scan enables the user to decode all groups in the current
+access block when selected by the user.
+.P
+DATA ONLY ID                                                           4414
+
+This option causes the Radio to remain muted when a valid ID for this GROUP
+is decoded.  The Radio will lock to the ID when decoded, as in a normal
+receive, except the speaker will remain muted during reception of the valid
+ID.  This feature is useful for IDs that will be used for data signalling
+only.
+.P
+DATA ENABLE                                                            4415
+
+No ONLINE help available.  Please refer to the RSS User Manual.
+.P
+HORN HONK                                                              4416
+
+The Horn Honk feature allows activation of the external alarm
+output when the the ID matching this universal ID or group
+range is decoded.  The external alarm output must be enabled
+under the Radio wide screen and the Horn option under the SITE
+OPTIONS screen must be either Selectable or Permanent.
+.P
+GROUP SCAN                                                             4417
+
+The group scan feature enables which groups will be enabled for auto group
+scanning as well as selections that will be enabled during system scanning.
+
+For auto group scanning, all groups that are to be involved in auto group
+scan should have this feature set to "Y".  This will cause the current
+group and all lower number groups with group scan enabled to be added to
+the decode collection along with any other options that are enabled.
+.P
+GROUP SCAN (cont)
+
+For mode slaved scanning all groups with the group scan feature set to "Y"
+will be enabled when the scan algorithm selects a mode using this access
+block.  Group scan bits are required for mode slaved system scanning.
+
+User programmable system scan uses user selections as well as auto group
+scan members using auto group scanning rules when selecting a given mode
+using this access block.  The decode collection is the highest group
+selected by the user and all lower groups marked by the user or marked as
+Group Scan in the Site Access Block.
+.P
+SCAN REPLY                                                             4418
+
+When Scan Reply is enabled, this group will be enabled for
+talkback during group and/or system scanning.  The display will
+be changed to the reply group during the scan hang time
+when scan reply is enabled.  If not enabled, the selected
+group will be used during group scan.  If not enabled, system
+scan will select either the next highest group selected for
+scan reply or the highest group if no reply groups are selected.
+.P
+DATA ONLY GROUP                                                        4419
+
+This option causes the Radio to remain muted when a valid ID for this GROUP
+ID RX range is decoded.  The Radio will lock to the ID when decoded, as in
+a normal receive, except the speaker will remain muted during reception of
+the valid ID.  This feature is useful for IDs that will be used for data
+signalling only.
+.P
+SITE ACCESS BLOCK UTILITY  (currently unused entry, base HELP #)       4480
+
+This function key selection is for adding/deleting universal IDs,
+adding/deleting groups, and adding/deleting complete Site Access Blocks.
+.P
+SITE ACCESS BLOCK - UTILITY                                            4481
+
+This field indicates the type of operation you wish to perform on the Site
+Access Block.  The available choices are ADD ACCESS BLOCK, DELETE ACCESS
+BLOCK, ADD UNIVERSAL ID, DELETE UNIV. ID, ADD GROUPS, and DELETE GROUPS.
+
+ADD functions will add the indicated object to the end of the list until
+you have reached the maximimum allowed.
+
+DELETE functions will allow the user to indicate the number of the object
+to delete.
+.P
+NEW BLOCK #                                                            4482
+
+This is the number that is assigned to the added Site Access Block.
+.P
+DELETED BLOCK #                                                        4483
+
+This is the number of the Site Access Block to be deleted.  This value can
+be changed by using the Up/Down arrows.
+.P
+NEW ID #                                                               4484
+
+This is the number that is assigned to the added Universal ID.
+.P
+DELETED ID #                                                           4485
+
+This is the number of the Universal ID to be deleted.  This value can be
+changed by using the Up/Down arrows.
+.P
+NEW GROUP #                                                            4486
+
+This is the number that is assigned to the added Group.
+.P
+DELETED GROUP #                                                        4487
+
+This is the number of the Group to be deleted.  This value can be changed
+by using the Up/Down arrows.
+.P
+HORN OPTION                                                            4491
+
+This allows you to select how the Horn Honk will function.  The Horn Honk
+may be operator Selectable, Permanent, or Disabled.  If Horn Honk is
+Selectable or Permanent, the delay time can be set by changing the Horn
+Delay field.
+.P
+HORN DELAY                                                             4492
+
+The Horn Delay is a delay that is added between the receipt of the call and
+the activation of the horn relay.  This value can be 0, 5, 10, or 15 sec.
+.P
+HORN DURATION                                                          4493
+
+No ONLINE help available.  Please refer to the RSS User Manual.
+.P
+CUE TONE                                                               4494
+
+If enabled, Cue Tone will give a short beep upon successful access of the
+trunking system.  If you use non-trunking Signalling Systems, you may use
+the Short Sidetone to give an identical tone to the user instead.
+.P
+CHANGE/VIEW MODE CONFIGURATION                                         4500
+
+     d.   When programming a user scan list,  channel names greater than 19
+          tend to be hard to recognize.
+
+Valid numbers are between 00 and 99.
+MODE Configuration is used to CHANGE/VIEW channel specific information such
+as frequencies, squelch type, squelch codes, and scan lists.
+
+Warning:  CHANGE/VIEW does NOT actually modify the Radio CodePlug data, but
+          instead it modifies a copy of the data retrieved from the Radio
+          CodePlug or archived CodePlug File via the GET/SAVE functions.
+
+          After  all  CHANGE/VIEW modifications  are  completed,  you  MUST
+          return to the GET/SAVE menu and PROGRAM the changes back into the
+          Radio  or  SAVE  them  to a  new archived file.   Otherwise  the
+          modifications will be LOST when you turn off your computer.
+.P
+NAME                                                                   4501
+
+NAME  is the number displayed on the two digit seven segment display.   The
+NAME  data field allows the number displayed to be different than the  mode
+number.  This,  for  example,  allows  the channels to be displayed  in  an
+unusual  order such as 1,2,4,5.  Any sequence desired can be chosen.
+
+A few words of caution should be given for CONVENTIONAL MODES:
+
+     a.   The name will have no effect on 2 channel Radios.
+     b.   Choose names  which  are not easily  confused  with  the  numbers
+          displayed by the call list entries.
+     c.   On  low  band Radios there may be difficulties viewing the  noise
+          blanker status.
+.P
+     d.   When programming a user scan list,  channel names greater than 19
+          tend to be hard to recognize.
+
+Valid numbers are between 00 and 99.
+
+The NAME field on a Trunked MODE CONFIGURATION screen is displayed in the
+leftmost seven segment display. The NAME data field allows the number to be
+displayed  different from the Trunk MODE number.  This, for example, allows
+the Trunk systems to be displayed in an unusual order such as 1,2,4,5.  Any
+sequence using numbers between 0 and 9 can be chosen.
+
+The user may choose not to edit the name of each system.  In this case the
+name will match the Trunk system number, except for system 10 being
+displayed as 0.
+.P
+MODE TYPE                                                              4502
+
+This field indicates whether a mode is of type Conventional or Trunking.
+The mode type can be changed if you have not reached the maximium number of
+modes of the desired type.  If you have reached the maximum limit for that
+type, a message will be displayed to this effect.  Otherwise, the type for
+that mode will be changed and the default field values will be displayed.
+
+It is important to remember that once the mode type has been changed, all
+data associated with the previous type will be lost!
+.P
+RECEIVE FREQUENCY                                                      4503
+
+Enter  the RECEIVE frequency directly in MHz.
+
+Blank RECEIVE frequencies are NOT allowed.
+
+Refer  to the MOTOROLA Catalog Sheets / Price Pages or your Service  Manual
+for valid RECEIVE frequencies for this model.
+.P
+TRANSMIT FREQUENCY                                                     4504
+
+Enter  the TRANSMIT frequency directly in MHz.
+
+For a "Receive-Only" channel,  enter a B.   The TRANSMIT frequency will  be
+displayed as BLANK.
+
+Refer  to the MOTOROLA Catalog Sheets / Price Pages or your Service  Manual
+for valid TRANSMIT frequencies for this model.
+.P
+TALKAROUND                                                             4505
+
+No ONLINE help available.  Please refer to the RSS User Manual.
+.P
+FREQUENCY                                                              4506
+
+No ONLINE help available.  Please refer to the RSS User Manual.
+.P
+SQUELCH TYPE                                                           4507
+
+Use  the UP/DOWN arrow keys to select the SQUELCH type:
+
+        CSQ - Carrier Squelch
+        TPL - Private Line
+        DPL - Digital Private Line.
+    INV.DPL - Inverse DPL
+
+Data  fields  for transmit and receive codes will be displayed for  PL  and
+DPL.
+.P
+PL SQUELCH CODE                                                        4508
+
+Enter  the  PL  frequency  directly in  Hz  (Ex:   192.8),   or  enter  the
+alphanumeric code (Ex:  7A).
+
+Enter a B for Carrier Squelch operation.
+
+Valid codes may also be selected via the UP/DOWN arrow keys.
+
+Standard PL frequencies are listed on the next page:
+.P
+PL SQUELCH CODE (cont)
+
+Standard Private Line Frequencies / MOTOROLA Code:
+
+Freq  Code    Freq  Code     Freq  Code     Freq  Code     Freq  Code
+67.0   XZ     91.5   ZZ      123.0  3Z      167.9  6Z      225.7  M4
+69.3   WZ     94.8   ZA      127.3  3A      173.8  6A      229.1  9Z
+71.9   XA     97.4   ZB      131.8  3B      179.9  6B      233.6  M5
+74.4   WA     100.0  1Z      136.5  4Z      186.2  7Z      241.8  M6
+77.0   XB     103.5  1A      141.3  4A      192.8  7A      250.3  M7
+79.7   WB     107.2  1B      146.2  4B      203.5  M1
+82.5   YZ     110.9  2Z      151.4  5Z      206.5  8Z
+85.4   YA     114.8  2A      156.7  5A      210.7  M2
+88.5   YB     118.8  2B      162.2  5B      218.1  M3
+.P
+DPL SQUELCH CODE                                                       4509
+
+Enter  the  DPL  code  directly (Ex:  031);  Note that  leading  zeros  are
+required.
+
+Enter a B for Carrier Squelch operation.
+
+Valid codes may also be selected via the UP/DOWN arrow keys.
+
+Valid DPL codes are listed on the next page:
+.P
+DPL SQUELCH CODE (cont)
+
+Valid DPL Codes:
+
+Code   Code    Code    Code    Code    Code    Code    Code    Code
+023    071     134     223     306     411     503     631     734
+025    072     143     226     311     412     506     632     743
+026    073     152     243     315     413     516     654     754
+031    074     155     244     331     423     532     662
+032    114     156     245     343     431     546     664
+043    115     162     251     346     432     565     703
+047    116     165     261     351     445     606     712
+051    125     172     263     364     464     612     723
+054    131     174     265     365     465     624     731
+065    132     205     271     371     466     627     732
+.P
+RX Signalling System                                                   4510
+
+Enter the number of the Signalling System that is desired for the  receiver
+of  this  mode. Signalling Systems are set-up under the  Signalling  System
+Configuration Screen.
+
+If there is no Signalling System for this mode enter "00".
+.P
+TX Signalling System                                                   4511
+
+Enter  the  number  of  the  Signalling  System that  is  desired  for  the
+transmitter of this mode. Signalling Systems are set-up under the
+Signalling System Configuration Screen.
+
+If there is no Signalling System for this mode enter "00".
+.P
+TX INHIBIT ON WRONG PL                                                 4512
+
+  TX INHIBIT ON WRONG PL may be enabled by choosing "Y".  When enabled, the
+Radio will be 'polite' to other users on the channel.  In other words,  the
+Radio will not allow you to transmit on top of another user with a PL that
+is different than yours (or with NO PL).
+
+This feature is useful because having your receive PL enabled will not
+allow your receiver to un-squelch during "other" traffic, therefore you
+will not be aware that the channel is "busy" before pressing PTT.
+
+If you press PTT on the Radio while there is a carrier on the CONVENTIONAL
+channel, the Radio follows this protocol:
+.P
+
+          a. If the carrier has your PL, then you are allowed to transmit
+             just like normal.
+
+          b. If the carrier has no PL or the wrong PL, then you will hear
+             a  busy  tone while you hold PTT.  Release PTT and  try  again
+             later.
+
+   If you choose "N", the Radio will transmit like a normal two-way Radio.
+.P
+PHONE SIGNALLING SYSTEM                                                4513
+
+  This  lets  you assign the phone access/deaccess code on  a  mode  basis.
+Enter  here  the number of the DTMF/PHONE signalling system  that  has  the
+access and deaccess code you want to use on this channel. The access  (ANI)
+sequence  is  sent  when the 'select' button is pressed. If  phone  is  not
+desired, do NOT assign a system here.
+.P
+TIME-OUT TIMER                                                        4514
+
+If Enabled, the TOT will limit the maximum time allowed for any continuous
+transmission  from 1 to 255 seconds  on all  transmit channels.  Receive
+operation is not affected by the TOT.
+
+Use the Up/Down arrow keys to select the desired time.  You will see the
+display  change in one  second increments.  The range is from OFF to 255
+seconds.
+.P
+SITE BLOCK #                                                           4515
+
+The Site Block Number field indicates the Site Block used for this MODE
+position.  This must be a VALID Site Block/Number that has been ADDED
+with the CHANGE/VIEW : SITE BLOCK screen.
+
+A word of advice: It will be easier to
+
+1)     CREATE/ADD all Site Files with the FILE MAINT. : SITE FILE menu.
+2)     ADD all Site Blocks with the GET/SAVE : SITE BLOCK menu.
+3)     ADD all Site Access Blocks via GET/SAVE : SITE ACCESS BLOCK menu.
+
+-before- attempting to configure Radio MODES.
+.P
+SITE ACCESS BLOCK #                                                    4516
+
+The Site Access Block Number field indicates the Site Access Block used for
+this MODE position.   This must be a VALID Site Access Block/Number that
+has been added with the CHANGE/VIEW: SITE ACCESS BLOCK screen.
+
+A word of advice: It will be easier to
+
+1)     CREATE/ADD all Site Files with the FILE MAINT. : SITE FILE menu.
+2)     ADD all Site Blocks with the GET/SAVE : SITE BLOCK menu.
+3)     ADD all Site Access Blocks via GET/SAVE : SITE ACCESS BLOCK menu.
+
+-before- attempting to configure Radio MODES.
+.P
+USER SCAN TYPE                                                         4560
+
+The three scan types are Normal, Revert and Search.
+
+Revert Scan will cause the Radio to move immediately to the mode and group
+which you receive a call on.  The Radio will remain on this new mode/group
+until the next call is received, but will continue to scan.  This is most
+appropriate for dispatcher control stations.
+
+Search Scan will cause the Radio to lock onto the first system that it
+detects a valid home channel.  If this home channel is lost for more than
+three scan cycles, the Radio will begin scanning for a new system.  This
+is best suited for roaming applications.
+.P
+MODE SLAVED SCAN LIST                                                  4561
+
+This  screen displays the available modes and their scan TYPE for the  mode
+display in the upper left side of the display.  The scan types are  changed
+by  moving  the cursor with the Enter or Tab keys to the desired  Mode  and
+changing its TYPE by using the up and down arrow keys.  Note that  Priority
+One  is  always  the Mode that the current scan list is  slaved  to.   This
+priority cannot be changed.
+
+Function Key Descriptions:
+
+F2 -  GO TO MODE allows you to go to the Mode Slaved Scan List you want  to
+      modify  without  returning  to  the  MODE  CONFIGURATION  screen  and
+      stepping through the modes in-between.
+.P
+MODE SLAVED SCAN LIST (cont)
+
+F3 & F4  - NEXT MODE will advance the screen to the next Mode Slaved Scan
+      List.  If you are at the last Mode in the Radio then pressing (F4)
+      will take  you to Mode 1.  PREVIOUS MODE will return you to  the
+      previous Mode.  If you are at Mode 1, pressing (F3) will take you to
+      the  last Mode in the Radio.
+
+F5 -  PRINT SCREEN will send the currently displayed Mode Slaved Scan  List
+      to the printer.
+
+F7 -  ERASE LIST will remove all of the Modes from the current scan list.
+.P
+MODE UTILITY                                                           4580
+
+The  MODE  UTILITY  screen is used for  adding,  deleting,  or  moving  the
+location  (order)  of  Conventional  modes.    Modes  may  also  be  copied
+(duplicated), including scan lists (Mode-Slaved only).
+
+The (F8) (EXECUTE) function key is used to execute the  changes  once  all
+information has been entered.
+
+The  GET/SAVE functions must be used to program the changes into the Radio,
+as is required for all CHANGE/VIEW modifications.
+.P
+MODE UTILITY (Default = Add Mode)                                      4581
+
+Use  the  UP/DOWN arrow keys to select the desired UTILITY  function:   Add
+Mode, Copy Mode, Delete Mode, or Move Mode.
+
+The (F8) (EXECUTE) function key is used to execute the  changes  once  all
+information has been entered.
+
+The  GET/SAVE functions must be used to program the changes into the Radio,
+as is required for all CHANGE/VIEW modifications.
+.P
+MODE TYPE (Default = type of Mode 1)                                   4582
+
+Mode Type can be Conventional or Trunked.
+.P
+INSERT AT MODE (Default = Blank)                                       4583
+
+Enter the mode number that the mode is to be INSERTED AT.
+
+After entering this number and pressing Enter,  the mode name for that mode
+will  be  displayed.   Use  the name to verify that the proper  number  was
+entered.
+.P
+NEW MODE NAME (Default = Mode nn)                                      4584
+
+Enter the 8-character alpha-numeric MODE NAME.   The Mode Name will default
+to "Mode nn", where nn = mode number.  If Mode Names are disabled, you will
+not be able to change this field.
+
+Each  mode  may be assigned a Name to facilitate ease  of  operation.   The
+[Mode] rocker button is used to scroll forward or backward through the list
+of modes programmed in the Radio.
+
+Since  the mode number is required for direct keypad mode selection via the
+[Home] button for keypad models,  using the mode number as part of the mode
+name is desirable, but not required.
+.P
+MODE TO COPY FROM (Default = Blank)                                    4585
+
+Enter the Mode Number TO COPY FROM.  Any valid mode number of the same mode
+type specified may be entered.
+
+After entering this number and pressing Enter,  the mode name for that mode
+will  be  displayed.   Use  the name to verify that the proper  number  was
+entered.
+.P
+Frequencies  (Rx,  Tx,  T/A),  squelch type,  squelch codes,  and all  mode
+options  will  be copied.   You may choose to copy the  channel  scan  list
+(mode-slaved  only)  or  to enter a new one.
+
+This  field is required for the Copy Mode function;  it is optional for the
+Add Mode function.
+.P
+COPY SCAN LIST (Default = N)                                           4586
+
+Use the UP/DOWN arrow keys to select Y to copy the channel scan list (mode-
+slaved only) or N for a blank list.
+
+If  the  copied  list  is full,  the new mode  will  assume the priority of
+the copied mode and the copied mode will not be part of the new list.
+
+Otherwise,  the new mode will assume the priority of the copied  mode,  and
+the copied mode will be a non-priority mode on the new list.
+.P
+MODE TO COPY TO (Default = Blank)                                      4587
+
+Enter  the Mode Number TO COPY TO.
+
+After entering this number and pressing Enter,  the mode name for that mode
+will  be  displayed.   Use  the name to verify that the proper  number  was
+entered.
+
+Frequencies  (Rx,  Tx,  T/A),  squelch type,  squelch codes,  and all  mode
+options  will  be copied.   You may choose to copy the  channel  scan  list
+(mode-slaved  only)  or  to  enter a new one after returning  to  the  Mode
+Configuration screen.
+.P
+MODE TO DELETE (Default = Blank)                                       4588
+
+Enter the Mode Number TO DELETE.
+
+After entering this number and pressing Enter,  the mode name for that mode
+will  be  displayed.   Use  the name to verify that the proper  number  was
+entered.
+
+CAUTION:  After the (F8) (EXECUTE) function key has been pressed, the mode
+          will be deleted and may not be recovered.  However, if you make a
+          mistake  AND the data has NOT been programmed or saved  (GET/SAVE
+          functions), you may re-read the Radio CodePlug or original
+          CodePlug File and start over.
+.P
+MODE TO MOVE (Default = Blank)                                         4589
+
+Enter  the  Mode Number TO MOVE.   Any valid mode number  may moved.
+
+After entering this number and pressing Enter,  the mode name for that mode
+will  be  displayed.   Use  the name to verify that the proper  number  was
+entered.
+
+The mode and all related parameters will be moved to the new position.  All
+mode-slaved  channel scan lists (if applicable) will reflect the  new  mode
+location, but otherwise will not be affected.
+.P
+DISPLAY NAME                                                           4600
+
+This is the number you will see displayed when dialing this phone number.
+.P
+PHONE NUMBER                                                           4601
+
+This  is the number  you want to send. It is one (1) to sixteen (16) digits
+in  length.  Valid  digits are 0 - 9, *, and #.  Pauses  are  NOT  allowed.
+There  is no need to fill in all the phone number slots; it will be  faster
+to  find the number if you enter as few numbers as possible ... enter  only
+frequently used phone numbers!
+.P
+DIAL SIGNALLING SYSTEM                                                 4602
+
+This  is the  signalling system that will be used to dial phone numbers. We
+made this separate  from the access  signalling system  so  that you  may
+customize  things  such as dialing speed. For example, some  phone  systems
+will allow faster dialing than the phone patch.
+.P
+SYSTEM                                                                 4700
+
+This  screen  allows  you to configure one or  more  signalling  systems.
+These  signalling systems will be used by the Call List and Mode screens to
+determine when and where decode or encode.
+.P
+ALERT TONE RESET                                                       4701
+
+This field applies only if the Call Type is CALL ALERT or CALL ALERT with
+VOICE.  This determines how the audible alert tone will be reset.  The
+choice of AUTOMATIC means that the alert tone will be automatically reset
+for you every 10 seconds.  The choice of MANUAL means that there will be
+alert tones ONLY when the call is initially received and none thereafter.
+.P
+TYPE (Signalling System)                                               4702
+
+When this screen is displayed the cursor is placed on the TYPE data  field.
+There  are  six available system types.   They are;
+
+ MDC-1200          PTTID, Radio Check, Call Alert, Voice SelCall, DOS, H/L
+ STAR              PTTID
+ QCII (QUIK CALL)  Call Alert, Voice SelCall, H/L Alarm
+ DTMF              PTTID, Call Alert, Call Alert/Voice, Voice SelCall, H/L
+ DTMF/PHONE        Telephone Interconnect
+ SINGLETONE        PTTID
+
+NONE implies that all signalling systems in the Radio are deactivated. Use
+(F8) to ADD 1st system, select system TYPE using the UP/DOWN arrow keys.
+.P
+ID                                                                     4703
+
+MDC-1200 :
+
+MDC-1200 requires that each Radio have a unique four digit ID number. The
+default is the last four digits of the Radio serial number.  The range is
+from  0001 to DEEE.   Four zeroes will show up as "NONE";  this is useful
+when you desire the Radio to "listen only". An example of a "listen only"
+situation  might  be  a  volunteer fireman  monitoring  a  fire  dispatch
+channel.
+.P
+STAR :
+
+STAR  requires that each Radio have a unique four digit ID  number.   The
+default is the last four digits of the Radio serial number.  The range is
+from  0000 to 16383.  You may enter the ID in two ways.  The first way is
+without the tag bits added to the ID.  In this case, you will type in the
+ID that you want to have appear on the dispatcher's console  first.  Then
+on the tag bit line you will set the proper combination for the customer.
+If  the channel is only being used by one customer,  then chances are the
+tags will be 0 0. The third line shows you what the ID would look like in
+a  system  which  uses  the tag bits as  an  extension  of  the  ID.  For
+reference, the first tag bit adds 8192 to the ID and the second adds 4096
+to the ID.
+.P
+QCII :
+
+QCII ID corresponds to tones A, B, and C. It requires at least two unique
+tones.  The default is 358.6 Hz (tone A), 903.s Hz (tone B), and  0.0  Hz
+(tone C). The range is from 304.0 to 2470.0 Hz. Don't be alarmed if the
+frequency that you type in changes by a few Hertz. This change can occur
+because the program must calculate the nearest frequency that the Radio
+can understand. You will find that the error will always be within the
+acceptable industry bandwidth.
+.P
+SINGLETONE :
+
+This is the frequency of the tone that is sent. The default is 1049.9 Hz,
+with available tones ranging from 304.0 to 2470.0 Hz. Don't be alarmed if
+the  program "rounds" the frequency up or down by a few  Hertz.  Remember
+that  the  tones will tend to have a higher distortion as  the  frequency
+drops; we suggest tones above 1 kHz when installing new systems.
+.P
+DTMF :
+
+DTMF requires each Radio to have a unique 1 to 8 digit ID number. Default
+ID is the last four digits of the Radio serial number. IDs of same length
+in all radios is optimal performance.  The digits 'A'and 'B' (Dx/Ex) are
+NOT recommended, nor are adjacent digits equal (1134 will false more than
+1234).  Fill end of ID string with '-' (End Character), e.g. '1234----'.
+
+ RSS Entry     DTMF ID (Hex./Dec.)      RSS Entry     DTMF ID (Hex./Dec.)
+ ---------     -------------------      ---------     -------------------
+     0      -     Ax   |   10               D      -     0x   |    0
+   1 - 9    -    1x-9x |  1 - 9             *      -     Bx   |   11
+     A      -     Dx   |   13               #      -     Cx   |   12
+     B      -     Ex   |   14               -      -     Fx   |   15
+.P
+GROUP ID                                                               4704
+
+  The MDC-1200 id is a three hex digit number common to a group  of  Radios
+and ranges from 000 to EEE.
+
+  The DTMF id is a 1 to 8 digit id.   The digits 0 to 9,  *,  and # may  be
+used.   It is IMPORTANT that the number of group digits does not exceed the
+number of id digits because the Radio will never decode the group ID.
+.P
+CALL FORMAT                                                            4705
+
+  There are 8 different choices for this field.  The choice determines  the
+sequence  in which this Radio needs to see the QCII tones for an individual
+or group call. The Up/Down arrow keys will scroll through the choices.  The
+following is a list of those choices:
+
+                  A-B  Tone A followed by Tone B.
+              A-B/A-C  Tone A followed by Tone B or Tone A followed by Tone
+                       C
+              A-B/C-B  Tone A followed by Tone B or Tone C followed by Tone
+                       B
+           A-B/Long B  Tone A followed by Tone B or Long Tone B
+           A-B/Long C  Tone A followed by Tone B or Long Tone C
+.P
+
+       A-B/A-C/Long C  Tone A followed by Tone B or Tone A followed by Tone
+                       C or Long Tone C
+    A-B/Long B/Long C  Tone A followed by Tone B or Long Tone B  or  Long
+                       Tone C
+A-B/A-C/Long B/Long C  Tone A followed by Tone B or Tone A followed by Tone
+                       C or Long Tone B or Long Tone C
+
+In  this table the first sequence is considered an "individual call"  while
+the other sequences would be considered "group calls."  For example:
+
+     For  choice   A-B/A-C/LONG C,  an A-B sequence would be an "individual
+call" while an A-C or LONG C would be a "group call". Group calls normally
+cannot be acknowledged.
+.P
+CALL TYPE                                                              4706
+
+  There are three different choices for this field.  The Up/Down arrow keys
+will scroll through the following choices :  Call Alert,  Call Alert/Voice,
+and  Voice  Selcall.   Call Alert leaves call indication at  the  receiving
+Radio.    Call  Alert/Voice  leaves  a  call  indication  and  unmutes  the
+loudspeaker  of the receiving Radio.   Voice Selcall unmutes loudspeaker on
+receiving Radio but does not leave any call indication.  MDC-1200 does  not
+allow Voice Selcall call type since Voice Selcall is an inherent feature of
+all MDC-1200 signalling systems.
+.P
+PL/DPL REQUIRED                                                        4707
+
+  The Up/Down arrow keys will allow the choices of either "Y" or "N".   "Y"
+implies the correct PL/DPL is required to recieve data.  "N" implies PL/DPL
+is  not  required  to receive data.  In most systems you  may  choose  "N",
+however,  when  you  share  a channel with other users who  have  the  same
+signalling type then you should choose "Y". Choosing "Y" on shared channels
+will ensure that you don't accidentally receive a call which is directed to
+another user.
+
+Note :  Some existing DTMF and Quik Call systems require PL stripping, and
+therefore it is recommended that an "N" be chosen in these cases.  3q3
+.P
+ACKNOWLEDGE                                                            4708
+
+  The Up/Down arrow keys will allow the choices of either "Y" or "N".   "Y"
+implies an acknowledge transpond tone will be sent after a valid call.  "N"
+implies no acknowledge will be sent after a valid call.  The Radio normally
+will not acknowledge "group calls".
+.P
+ACKNOWLEDGE TYPE                                                       4709
+
+  The acknowledge type can be one of the four following choices :
+
+  1.  DIGIT - One DTMF digit will be transmitted after a valid call.  Digit
+              is entered on the Acknowledge Digit data field.
+  2.  ID - The ID of the Radio will be transmitted after a valid call.
+  3.  TONE - A predetermined tone will be transmitted after a valid call.
+  4.  NO - No acknowledge will be sent after a valid call.
+
+The Up/Down arrow keys will scroll through the allowable choices.
+
+NOTE : QCII only has choices 3 and 4.
+.P
+ACKNOWLEDGE DIGIT                                                      4710
+
+  This  field  is is used in conjunction with the Acknowledge  type  field.
+This is the digit that is transmitted after a valid call if the acknowledge
+type is "DIGIT".  Digits 0 to 9, *, and # may be used to create a ONE digit
+acknowledge digit.
+.P
+ACK PRETIME                                                            4711
+
+  Systems   that  use Call Alert require that the Radio  acknowledge  (ACK)
+that the  Call Alert has been received.  ACK Pretime is the delay from when
+the  Radio  receives  a  Call Alert to when it starts  the  ACK   sequence.
+The default ACK pretime is 0.5 seconds.  If a different pretime is required
+for your  system move the cursor to the ACK Pretime data field and   change
+the time  using  the up and down arrow keys.  The range can be from 0.2  to
+2.0 seconds in 0.1 second steps.
+.P
+HORN/LIGHTS                                                            4712
+
+  When a Call Alert is received,  an external output may be activated  that
+can  be  used to control a vehicle's horn or lights.   Horn/Lights  may  be
+selectable,  permanent,  or  not available.   If horn/lights are selectable
+then  they may be defeated by the front panel Select button.   If they  are
+permanent,  they cannot be defeated without an external switch in the relay
+cable.  If they are not available, then they can never be activated.
+.P
+HORN/LIGHTS DELAY                                                      4713
+
+  When   External   Alarm  or Horn/Lights is activated by   the   operator,
+Call   Alerts   will   activate  the  external  alarm  for  six    seconds.
+Horn/Lights Delay will delay the activation of the external alarm to allow
+the operator time,  if  he is in the vehicle, to respond to the Call  Alert
+before   the  external alarm is activated.   If the operator  does  respond
+during  the  delay time  the  external alarm will not  be  activated.   The
+default  time  is  10.0 seconds.    If  a different Delay Time is  required
+move  the   cursor   to  the Horn/Lights  Delay data field  and  enter  the
+desired  delay.   Use the up  and down arrow keys to select a delay  of  0,
+5.0, 10.0 or 15.0 seconds.
+.P
+SIGNALLING SQUELCH                                                     4714
+
+  This  feature can either be enabled "Y" or disabled "N" using the Up/Down
+arrow  keys.   If this feature is enable "Y",  then the front panel monitor
+button  can  be used to put the Radio into  signalling  squelch.   If  this
+feature  is  disabled "N",  then signalling squelch is not  activated.  The
+default is "N".
+
+  Signalling  Squelch is similar to Private Line.  When enabled,  the Radio
+will  only unmute for Call Alerts and Voice Selcalls.  Like  Private  Line,
+Signalling  Squelch  can  be  disabled by pressing the  monitor  button  or
+removing  the  microphone  from  the hang  up  clip.  You  will  find  that
+Signalling Squelch is automatically disabled when channel scan is on.
+.P
+DOS HOLDOFF                                                            4715
+  Data   Operated   Squelch  (DOS)  is  used with  data signalling  systems
+(such  as  MDC-1200)   to    mute    the  data  transmissions   to   reduce
+operator  annoyance.   DOS  attempts  to  mute  the  speaker  when data  is
+present  on  the channel.    DOS Holdoff keeps  the speaker muted   for   a
+preset period  of time from when carrier is  detected   by    the   squelch
+circuit.    This  allows the DOS time to detect any data  activity, further
+reducing the annoyance of data being heard from the speaker.
+
+  The  default  holdoff  is 0.5 seconds.    If a different holdoff time  is
+required  for   your system  move the cursor to the DOS Holdoff data  field
+and  change the   time using the Up/Down arrow keys.  The range can be from
+0.0   to  4.3  seconds  in  0.1 second  steps.   The  Radio   automatically
+defeats  DOS Holdoff while channel scan is turned on.
+.P
+PTT ID                                                                 4716
+
+  If you want your unit id to be sent on each Push-to-talk (PTT),  then set
+this field to "PRE", "POST", or "BOTH".  "PRE" sends the id at the press of
+PTT. "POST" sends the id upon release of PTT. "BOTH" sends the id twice per
+transmission,  once  at  the press and once at the release of PTT.  If  you
+choose "NONE", then the id will not be sent during PTT.
+.P
+PTT SIDETONE                                                           4717
+
+  PTT   sidetones   are  used when PTT ID is  activated.    Sidetones   are
+heard  through the speaker when the operator first presses the  PTT.   They
+are  used  to  tell  the  operator   that he cannot  speak  until  the   ID
+has   been transmitted.  There are two sidetones available in the Radio.
+The  PTT  ID Sidetone  is a continuous tone heard from PTT until the ID has
+been  sent.  The second tone, PTT Short Sidetone, is a short beep after the
+ID  has   been sent.    Both  tell  the operator when he is  permitted   to
+speak  into  the microphone.   One,  both  or no Sidetones maybe activated.
+They   can  be activated  by moving the cursor to the desired sidetone  and
+using the Up/Down arrow keys to choose either "Y" or "N" to either activate
+or deactivate the sidetones.
+.P
+  The Sidetone choice is also used when sending a call from the Call  List.
+It is suggested that if this signalling system is to be used by a Call List
+entry that the Sidetone(s) be enabled.
+.P
+PTT SHORT SIDETONE                                                     4718
+
+  PTT   sidetones   are  used when PTT ID is  activated.    Sidetones   are
+heard  through the speaker when the operator first presses the  PTT.   They
+are  used to  tell  the  operator  that he cannot yet speak until  the   ID
+has   been transmitted.  There are two sidetones available in the Radio.
+The PTT  ID Sidetone  is a continuous tone heard from PTT until the ID  has
+been  sent.  The second tone, PTT Short Sidetone, is a short beep after the
+ID  has   been sent.    Both  tell  the operator when he is  permitted   to
+speak  into  the microphone.   One,  both  or no Sidetones maybe activated.
+They   can  be activated  by moving the cursor to the desired sidetone  and
+using  the  Up/Down arrow keys to choose either "Y" or "N" to  activate  or
+deactivate the sidetones.
+
+  The  Sidetone choice is also used when sending a call from the Call  List
+and whenever a sequence is generated by pressing the 'Select' button.
+It is suggested that if this signalling system is to be used by a Call List
+entry that the Sidetone(s) be enabled.
+.P
+PRETIME                                                                4719
+  The    pretime    is  the  delay from the start  of  transmit  (when  the
+operator pushes PTT) to when  the data signalling begins.    This delay  is
+required   in  order  to  allow   the  Radio    to   completely   open  the
+communications  path  through   repeaters  or  other   system   components.
+The  default   pretime   is 0.5 seconds.    If  a  different   pretime   is
+required  for your  system move the cursor  to  the Pretime data field  and
+change the  time using the Up/Down arrow keys.   The
+range can be from 0.1 to 4.3 seconds in 0.1 second steps.
+.P
+FIXED RETRY WAIT                                                       4720
+
+  When  emergency  is  activated  by  the  operator  the  Radio  expects an
+acknowledge from the base station.  If no acknowledge is received then  the
+Radio   will repeat the emergency sequence after a delay.  The Radio always
+waits a random time greater than twice the Pretime.  The additional time is
+the  Fixed Retry Wait time.  Fixed Retry Wait is the time the  Radio  waits
+between emergency tries.  The default  is 0.0  seconds (STAR default is 8.1
+seconds).   If  a  different Wait Time is required move the cursor to   the
+Fixed  Retry  Wait data field and change the time using the  Up/Down  arrow
+keys.   The  range  can be from 0.0 seconds to 16.9 seconds in  0.4  second
+steps.
+.P
+DECODE DISPLAY                                                         4721
+
+  When a PTT ID transmission is received by the Radio it contains the ID of
+the  transmitting  Radio.   The name of the call entry associated with  the
+transmitting Radio ID will be displayed on the screen.  If no call entry is
+associated with the transmitting Radio ID, then "00" (not for DTMF) will be
+displayed  on  the Radio.   Use the Up/Down arrow keys to choose either  to
+have the transmitting Radio "name" displayed on the front  panel,  "Y",  or
+not  to  have the transmitting Radio "name" displayed on the  front  panel,
+"N".  Since  2  channel Radios do not have a display,  choosing "Y" is  not
+recommended.
+.P
+CONSOLE                                                                4722
+
+  One  Radio  in  the  system should be designated  as  the  Console  Radio
+(Control Unit).   The purpose of this Radio is to acknowledge the receiving
+Emergency Alert.   If this field is enabled "Y",  the Radio will respond to
+an Emergency with an acknowledge transmission.   Use the Up/Down arrow keys
+to  choose either "Y" or "N".  Since 2 channel Radios do not have a display
+to show the unit ID of the transmitting Radio,  they are not recommended as
+Console Radios.
+.P
+TX TONE DURATION                                                       4723
+
+  This is the length of each digit that is transmitted by the  Radio.   The
+default  is 101.4 msec..   Use the Up/Down arrow keys to change the default
+value.  The range is 50.7 to 4296 msec..  in 16.9 msec. intervals.
+.P
+TX TONE INTERVAL                                                       4724
+
+  This is the time between the transmission of different DTMF digits.   The
+default  is 50.7 msec..   Use the Up/Down arrow keys to change the  default
+value.  The range is 50.7 to 4286 msec. in 16.9 msec. intervals.
+.P
+RESET DURATION                                                         4725
+
+  After   the  DTMF  decoder  has  received  a  valid  digit  it  waits   a
+predetermined  time for the next expected tone before resetting.  Resetting
+causes the decoder to look for the first digit of the ID. Reset Duration is
+the time period that the decoder waits before resetting.  This duration may
+be  set  from 0.2 to 33.0 seconds.  The default is  2.5  seconds.  Use  the
+Up/Down arrow keys to change the default value if necessary.
+.P
+ACCESS CODE                                                            4726
+
+  The DTMF sequence which is used to "access" or open the phone patch  goes
+here.  Typically, this is a * followed by one (1) to three (3)  number
+digits. This is commonly known as an ANI sequence!
+.P
+DEACCESS CODE                                                          4727
+
+  The DTMF sequence which is used to terminate a phone call, or  "deaccess"
+the phone patch goes here. This is often a # digit.
+.P
+CALL LIST                                                              4900
+
+This screen allows you to configure a call list so that you may selectively
+call  other Radios.  Once this call list is complete,  you may use  the
+'Select'  button  on  the front of your Radio to select the  individual  or
+group that you wish to call.
+
+The  list  is built one entry at a time.  The sequence of  the  entries  is
+exactly  the same as the order you would select them from the front of  the
+Radio. The entry sequence may be important for your customer, so it is best
+to check with him/her first.
+
+You  may mix different signalling formats in any order in the list.  Up  to
+99  different  entries are allowed.  To create the first entry in  a  blank
+list, you will have to use the (F8) key.
+.P
+DISPLAY NAME                                                           4901
+
+The  name/number that will show on the Radio display whenever this entry is
+being selected.  This will can be any number from 1 to 99.  We suggest that
+the number be large so that your customer can easily distinguish that  this
+is not a channel number.
+.P
+SIGNALLING SYSTEM                                                      4902
+
+This  determines  which  signalling  format and timing will  be  used  when
+sending the call.
+.P
+REVERT MODE                                                            4903
+This field determines on which channel the call will be sent. If you always
+want  the call to go out on whatever channel your customer is on, then  you
+want 'NONE'; do this by using the UP/DOWN keys or typing '00'.
+
+If you always want the call to be sent on a specific channel,  then use the
+UP/DOWN keys until this channel is displayed.  Remember, however, that when
+the  call is complete the Radio will remain on the sending channel.
+
+Following the Revert Mode number is the Mode Name and Type for easier
+identification.  This will indicate the display name and whether the mode
+is of type Conventional or Trunked.
+.P
+ACKNOWLEDGE EXPECTED                                                   4904
+This  determines  whether or not the Radio will expect an acknowledge  from
+unit(s) being called.  If an acknowledge is expected,  the Radio will:   a)
+send the call up to 5 times  b) display an 'A' if the call is  acknowledged
+or a '-A' if not acknowledged.
+
+If  an acknowledge is not expected,  the Radio will only send the call  one
+time and will not show any type of acknowledge display.
+
+In general,  you would like to answer 'YES'. Group calls, however, normally
+should  be  'NO'.   No acknowledge is expected for DTMF or Quik Call (their
+acknowledge is heard only by the user and is not decoded).
+
+Answering  'NO' to MDC-1200 individual entries is acceptable for call alert
+and voice selcall, however, to send a Radio check you MUST answer 'YES'.
+.P
+STRIP PL                                                               4905
+Answering  'YES'  to this question will cause the Radio to  send  the  call
+without  PL  or  DPL.  This can be useful if you want to selectively call a
+group  or  unit  without disturbing everyone else  on  the  channel   (this
+normally CANNOT be done on a community repeater!)
+.P
+ID TYPE                                                                4906
+If  this field is shown,  use your UP/DOWN keys to determine if this is  an
+INDIVIDUAL, GROUP, or FLEET call.
+
+Individual  Id - It is four digits long.   The numbers 0-9 and letters  A-F
+                 can  be  used.  'F'  acts as a wildcard  and  'E'  is  not
+                 available for the first digit.
+
+Group Id - Three selectable digits,  0-F.  The first digit is automatically
+           inserted by the program.
+.P
+Fleet Id - One selectable digits, 0-F. The first digit is automatically set
+           to 'E' and the third and fourth digits are set to 'F'.
+
+All - All digits are automatically set to 'F'.
+.P
+ID                                                                     4907
+This is the ID of the unit or group that you want to call.
+.P
+CALL FORMAT                                                            4908
+This only applies to Quik Call.  You may choose 'TWOTONE' or 'LONGTONE'. Be
+sure to type in the frequencies you want in fields FREQ 1 and FREQ 2.
+.P
+CAP CODE PREFIX                                                        4909
+This is for future use.
+.P
+FREQ                                                                   4910
+This is the frequency of the tone(s) to be sent in Hertz.  Don't be alarmed
+if the number rounds up or down a few Hertz once it is entered.
+.P
+CALL LIST SUMMARY                                                      4960
+
+This a VIEW-ONLY summary of the Call List entries.
+.P
+PRINT                                                                  5000
+
+The  PRINT  function is  used to  produce  permanent  records  of  CodePlug
+configurations  and/or  RF alignment settings.   A printer is required  and
+should  be  connected  to your computer per your  computer  user's  manual.
+Graphics capability is NOT required.
+
+You must use the GET/SAVE functions to first READ or GET a codeplug IMAGE
+for printing Configuration Data or IMAGE Alignment (see F2 + F8 below);
+You must have  a  radio connected to the computer for printing a RADIO
+Alignment summary (see F5 below).
+
+Each printout contains radio model and serial number information, Radio
+Service Software version numbers,  and the date and time of the printout.
+.P
+Function Key Descriptions:
+
+F2 - The  RADIO  CONFIGURATION function prints a summary of all  RADIO-WIDE
+     and CHANNEL information.
+
+F3 - The SITE SUMMARY function displays a menu that allows the user to
+     print summaries of Site system blocks and Site signalling blocks.
+
+F4 - The  PHONE LIST SUMMARY function  prints a  summary of all the phone
+     memory entries.
+
+F5 - The RADIO ALIGNMENT Summary function prints the current relative value
+     setting for all SERVICE alignment adjustments. REQUIRES RADIO CONNECT.
+.P
+
+F6 - The  ARCHIVE  FILES function prints a list of all  CodePlug  Files  by
+     serial number for a specified archive directory path.
+
+F7 - The  SIGNALLING LIST SUMMARY function prints a compressed  summary  of
+     all signalling systems that are programmed in the Radio.
+
+F8 - The (RSS) IMAGE ALIGNMENT Summary function prints current values for
+     all SERVICE alignment settings from READ RADIO or GET FILE codeplug
+     reads.  This PRINT function does NOT require Radio Connection.
+
+F9 - The  CALL LIST SUMMARY function  prints a compressed list of the  call
+     list entries.
+.P
+PRINT ARCHIVE FILES                                                    5600
+
+This function allows the  user to  print CodePlug and  Site Files  from the
+default Directory paths. If the desired path is different than the default,
+the  user may  change  the path  specification  (see F2 below).   First the
+CodePlug Files are printed, then the  user is prompted to  press (F8) if he
+wishes  to  print the  Site Files.   If it is not desired to print the Site
+Files, press (F10) to exit.
+.P
+SITE FILE MAINTENANCE                                                  6300
+
+This menu is used to Create/Edit/Save the SITE FILES that are assigned to
+Site Blocks in the (Change/View) SITE BLOCK Add/Del/View Menu.
+
+SITE FILES -must- be created here as a first step in programming TRUNKED
+Radio MODES.  Each SITE FILE can then be used (as noted above) to create
+one or more SITE BLOCKS on the (Change/View) Menu.  Each SITE BLOCK is then
+linked to a Radio TRUNKED MODE.
+
+SITE INFORMATION contained in the SITE FILES can only be created/edited by
+utilities under this menu.  From the SITE BLOCK screen, the data can only
+be viewed.
+.P
+The menu choices are:
+
+F2 - CREATE Site File function allows the user to create a NEW Site File.
+
+F3 - GET Site File function retrieves a Site File from an archive directory
+     path for the purpose of updating the Site File information.
+
+F4 - VIEW/EDIT Site File function displays a previously retrieved Site File
+     for the purpose of modifying.  If no Site File data is loaded, then a
+     blank Site File will be displayed and a NEW Site File can be created.
+
+F5 - SAVE Site File function will save the current Site File data into the
+     current SITE directory, and offer an option to BACKUP the Site File
+     into the current BACKUP directory.
+.P
+SITE ARCHIVE PATH                                                      6301
+
+Enter the Drive:Directory Path where the archived Site File is to be
+located.
+
+The default archive Path will always be the specified default Path from
+the SETUP Menu (See MAIN MENU, (F9) ).
+
+Please refer to you computer owner's manual for a complete description of
+drive:directory Path names.
+.P
+GET SITE FILE : ADD SITE BLOCK                                         6330
+
+The GET / ADD SITE screen is used, under -2- different menus, to
+retrieve an archived Site File from an archive directory.
+
+Under the FILE MAINTENANCE : GET SITE FILE menu, the file may be MODIFIED
+via VIEW/EDIT FILE function on the SITE FILE MAINT : VIEW SITE FILE menu.
+
+Under the CHANGE/VIEW : ADD SITE BLOCK menu, the Site File is only read
+to create a new Site Block.  The Site File data cannot be modified.
+
+Use  the TAB (or ENTER) key to select the Site File to be  retrieved.  The
+corresponding Site File Description information, Number, Version, and the
+Date  the file was made will be displayed across the top of the  screen.
+The (F8) key is used to GET the selected Site File.
+.P
+SITE FILE EDIT / CREATE                                                6400
+
+This screen is used for creating NEW -or- editing EXISTING Site Files.
+
+DESCRIPTION and DATE fields;  These are not edited here; they can be
+changed on the SAVE SITE FILE screen.  NEW Files will have default data.
+
+NUMBER and VERSION fields;     These can be set to values 001 - 255.
+For newly-created Files, these will default to 001, and be offered as part
+of the default Site File DOS file name (e.g. SITE_num.ver).
+
+NUMBER/VERSION fields can be used to manage multiple Site Files which are
+for the same Site but contain sub-sets of Site data for programming Radios
+(e.g. assigning sub-sets of repeaters to groups needing telephone access).
+.P
+AREA field;    Indicates the AREA configuration of the Site. This bit
+must agree with the configuration of the AREA bit in each repeater of the
+system for calls to be completed. Use UP/DOWN arrow keys to select 0 - 1.
+
+FREQ. BAND field;      This is used to show or select Frequency Band.
+      CAUTION !!       Changing this field will -erase- all repeater data.
+
+FREQUENCY field;       There are 20 repeater slots for the actual frequency
+in MHz which is assigned for each ACTIVE repeater in the Site. Unused
+repeaters should be left at the  default frequency of 000.00000 to indicate
+INACTIVE repeaters.
+
+OFF(SET) field;    An OFFSET Flag, and is applicable in the FCC # ranges
+shown below.  These can be changed via the UP/DOWN arrow keys or direct
+entry (where applicable; "-" indicates NOT APPLICABLE).
+.P
+CHAN(NEL) field;   Shows the FCC Channel Number assigned to each frequency,
+and can be changed via the UP/DOWN arrow keys or direct entry.
+
+==800 MHz==            For the REPEATER-TX Band 851.01250 - 868.98750 MHz,
+the FCC assigns Channel Numbers 001 - 830 ( 831 - 911 are RSS extensions).
+
+CHANNEL NUMBERS 001 - 602 cover the Band       851.01250 - 866.03750 MHz.
+Each Channel is 25.0 KHz apart.  If the OFFSET is enabled, it sets the
+frequency DOWN 12.5 KHz, below the actual Channel frequency.
+
+CHANNEL NUMBERS 603 - 830 cover the Band       866.05000 - 868.98750 MHz,
+in 12.5 KHz increments, EXCEPT -8- frequencies designated by the FCC as
+-NOT AVAILABLE-.  There are -4- "zones" where the Channel gets incremented
+by 25.0 KHz, to skip those N.A. frequencies, and the RSS allows the OFFSET
+field to be enabled for the N.A. frequencies.  See Table Below.
+.P
+CHANNEL NUMBERS 831 - 911 cover the Band       869.00000 - 870.00000 MHz,
+in 12.5 KHz increments.  These are PSEUDO-CHANNELS, -not- assigned by FCC,
+and OFFSETS are -not- applicable.
+
+
+
+==900 MHz==            For the REPEATER-TX Band 935.01250 - 939.98750 MHz,
+the FCC assigns Channel Numbers 001 - 399 ( 400 - 479 are RSS extensions).
+
+CHANNEL NUMBERS 001 - 399 cover the Band       935.01250 - 939.98750 MHz;
+CHANNEL NUMBERS 400 - 479 cover the Band       940.00000 - 940.98750 MHz;
+Channel spacing is 12.5 KHz apart.  Offsets are -not- applicable.
+.P
+The RSS allows the following FCC -NOT AVAILABLE-  frequencies to be chosen.
+These should NOT be accessed in the U.S.A. without specific authorization;
+
+   FREQ.      FCC#    OFF              FREQ.      FCC#    OFF
+   ========   ====    ===              ========   ====    ===
+   866.0250   602     Y
+   866.5000   639     Y                867.5000    715     Y
+   866.5250   640     Y                867.5250    716     Y
+   867.0000   677     Y                868.0000    753     Y
+   867.0250   678     Y                868.0250    754     Y
+
+   NOTE !! Many Channels in the  800-MHz  range have FCC restrictions on
+   usage within close proximity to U.S.A. borders with Mexico and Canada.
+.P
+DELETE SITE FILE                                                       6600
+
+The DELETE SITE FILE screen allows you to delete any archived Site File
+from the directory displayed in the SITE Path.
+
+Function key descriptions:
+
+F2 - The CHANGE PATH function allows you to change the SITE Path.
+     Enter the new Path and press the Enter key.
+
+F8 - The DELETE FILE function allows you to delete the highlighted file.
+.P
+SAVE SITE                                                              6700
+
+The SAVE SITE FILE screen is entered to save a Site File that has just been
+edited or created from the SITE FILE EDIT / CREATE screen.
+
+The Site File NUMBER and VERSION fields can not be edited here, they are
+shown for reference.  You may change them on the VIEW / EDIT screen.
+
+The  DESCRIPTION  field is used for entering 24 characters of Site-specific
+information. This DESCRIPTION can be used as a quick reference when
+searching through a number of Site Files to select the correct Site data to
+add to a particular Radio.  Enter any printable ASCII characters.
+
+The FILE NAME field is used to set the DOS FILE name.  Newly-created files
+will default to "SITE_num.ver", using Site File NUMBER and VERSION values.
+.P
+The FILE DATE field is used to set the date the file was last edited.
+Newly-created files will default to your current PC-DOS system date.
+
+
+Function key descriptions:
+
+F2 - The CHANGE PATH function allows you to change the SITE Path.
+     Enter the new Path and press the Enter key.
+
+F8 - The (F8) key is used to SAVE the Site File.  After the file is saved
+     to the current SITE Path, you will be given an option to save the file
+     again to the current BACKUP Path.  Use (F10) to abort backup.
+.P
+RESTORE ARCHIVE                                                        6800
+
+The RESTORE SITE ARCHIVE screen is to restore lost Site Files from a back-
+up Files Directory or Disk.
+
+Function Key Descriptions:
+
+F3  - The CHANGE SOURCE function is used to point to the Back-up  directory
+      Path.  Enter the new Path and press the Enter Key.
+
+F4 - The CHANGE TARGET function is used to point to the Site directory Path
+     where you want to store the recovered Site File.  Enter the new
+     Path and press the Enter Key.
+.P
+RESTORE ARCHIVE (cont)
+
+F7 - The RESTORE FILE function is used to move the Back-up Site File,
+     highlighted on the display, to the directory displayed in the Target
+     Path.
+.P
+UPDATE BACK-UP SITE FILES                                              6900
+
+The Update Back-up Files Screen allows you to create new back-up copies of
+your Site Files.
+
+F3 - The CHANGE SOURCE funtion is used to point to the Site  directory
+     Path that you want to back-up.  Enter the new Path and press the
+     Enter Key.
+
+F4 - The CHANGE TARGET function is used to point to the Back-up directory
+     where  you want to store the Back-up Site Files.  Enter the  new  Path
+     and press the Enter Key.
+
+F7 - The CREATE BACKUP function will copy the selected Site File contained
+     the Source Path to the directory of the Target Path.
+.P
+SETUP Computer Configuration                                           9000
+
+The  SETUP  functions are used to configure your Radio Service Software to
+your particular application and computer environment.
+
+Please  refer to your computer owner's manual for a complete description of
+directories, paths and Asynchronous Communication Ports.
+
+A PATH name can include an optional Disk Drive specifier (e.g."A:\SITE2" =
+Sub-Directory SITE2 on Drive A:). In this RSS, the PATH must NOT include a
+File name.
+
+Changing parameters on these screens will change settings for THIS SESSION
+ONLY, unless (F8) is used to SAVE the settings for each future session.
+.P
+=== SETUP / CONFIGURATION Menu === Function Key Descriptions:
+
+F3 - PC  CONFIGURATION is used to set default disk drive/paths for Archive,
+     Site and Backup files.   It is also used to select which Asynchronous
+     Communications Port (COM1 or COM2) the RIB (Radio Interface Box) will
+     will be connected to, and to TEST communications on that Port.
+
+F7 - SCREEN  COLORS  is  used  to enable the  Color  display  option.   The
+     standard  default  configuration for Radio Service Software is  for  a
+     MONOCHROME display monitor.   However, if you have a color system, the
+     display quality will be greatly enhanced by enabling the color option.
+.P
+=== COMMON Screen/Menu === Function Key Descriptions:
+
+
+F8 - SAVE  is used to save the configuration information to a FILE on  your
+     disk.  Each time you use the Radio Service Software, the configuration
+     that you SAVED last will be  used.  The configuration may be changed
+     and SAVED at any time.
+
+Configuration changes SHOULD be SAVED (F8) before you EXIT (F10) these
+screens. If they are not saved, the changes are only valid for the current
+session.
+
+F9 - RESET  DEFAULT  is  used to reset the parameters on each screen  to  a
+     default   value.    However,   RESET   DEFAULT  does  NOT   save   the
+     configuration.   If the default values are desired, you must save them
+     via the SAVE (F8) function.
+.P
+=== PC CONFIGURATION Screen === Function Key Descriptions:
+
+F3 - COMM TEST is used to verify that your computer is set up properly and
+     is able to READ and PROGRAM a Radio CodePlug properly.
+
+     After your computer and RIB are connected per your Radio Service
+     Software manual and you have selected the appropriate communication
+     port, turn on your RIB + Radio and execute COMM TEST by pressing (F3).
+
+     COMM  TEST will verify your system is functioning properly by  sending
+     commands  to  the  Radio and checking for  the  proper  response.   No
+     CodePlug changes will result from these commands.  An OK response will
+     be displayed in the Status Window if the system checks OK.  Otherwise,
+     error messages will be displayed, and you should consult your manual
+     for proper corrective action.
+.P
+ARCHIVE (CodePlug) DISK-DRIVE \ PATH NAME                              9301
+
+Enter the DEFAULT (Drive:\)Directory PATH where CODEPLUG Files are to be
+archived (saved).
+
+The GET/SAVE SAVE (CodePlug) FILE function will default to this Path.
+
+Please  refer to your computer owner's manual for a complete description of
+directories and path names.  A PATH name can include an optional Disk Drive
+specifier (e.g. "A:\ARCHIVE2" = Sub-Directory ARCHIVE2 on Drive A:).
+In this RSS, the PATH must NOT include a File name.
+.P
+BACKUP DISK-DRIVE \ PATH NAME                                          9302
+
+Enter the DEFAULT (Drive:\)Directory PATH where CODEPLUG and SITE Files are
+to be BACKED-UP.
+
+The BACKUP FILE function will default to this Path when making BACKUP copy
+of CodePlug or Site Files archived to a HARD disk.  If you are archiving
+to a diskette, you will NOT be prompted for a backup.
+
+Diskette  backups should be handled via standard DOS file copy  procedures.
+Please  refer to your computer owner's manual for complete information on
+directories and path names.  A PATH name can include an optional Disk Drive
+specifier (e.g. "A:\BACKUP2" = Sub-Directory BACKUP2 on Drive A:).
+In this RSS, the PATH must NOT include a File name.
+.P
+SITE (Archive) DISK-DRIVE \ PATH NAME                                  9303
+
+Enter the DEFAULT (Drive:\)Directory PATH where SITE Files are to be
+archived (saved).
+
+The FILE MAINT. - SAVE SITE FILE function will default to this Path.
+
+Please  refer to your computer owner's manual for a complete description of
+directories and path names.  A PATH name can include an optional Disk Drive
+specifier (e.g. "A:\SITE2" = Sub-Directory SITE2 on Drive A:).
+In this RSS, the PATH must NOT include a File name.
+.P
+SERIAL COMMUNICATIONS PORT (Default = COM 1)                           9304
+
+Use  the UP/DOWN arrow keys to select to which Asynchronous  Communications
+Port (COM 1 or COM 2) your RIB (Radio Interface Box) is connected.
+
+If  you  are  not sure how your computer is configured or if you  have  two
+Asynchronous Communications Ports, first select COM 1 and use the COMM TEST
+(F3) function to communicate with a Radio.  If the test fails, select COM 2
+and  repeat  COMM  TEST.   Be sure that all cables and power  supplies  are
+connected  per  the  instructions in your  Radio  Service  Software  User's
+manual.
+
+Please refer to your computer owner's manual for a complete description  of
+Asynchronous Communication Ports and how to configure them.
+.P
+CONFIGURE COMPUTER SCREEN                                              9700
+
+SCREEN  COLORS  is used to select the type of display monitor that you  are
+using with your computer, i.e. MONOCHROME or COLOR.
+
+For  proper  color  operation,  you  must  have a  color  monitor  and  the
+appropriate color display interface card installed in you computer.  Please
+refer  to  your computer owner's manual and/or your computer dealer if  you
+have questions regarding the color capability of your computer.
+
+You  may  also further customize your screen by selecting  colors  for  the
+screen TEXT,  STATUS LINE,  MESSAGE LINE,  TEXT HIGHLIGHT,  BACKGROUND, and
+SCREEN OUTLINE.
+.P
+Function Key Descriptions:
+
+F8 - SAVE  is used to save the configuration information to a file on  your
+     disk.  Each time you use the Radio Service Software, the configuration
+     that you SAVED last will be  used.  The configuration may be changed
+     and SAVED at any time.
+
+Configuration changes SHOULD be SAVED (F8) before you EXIT (F10) these
+screens. If they are not saved, the changes are only valid for the current
+session.
+
+F9 - RESET  DEFAULT  is  used to reset the parameters on this screen  to  a
+     default   value.    However,   RESET   DEFAULT  does  NOT   save   the
+     configuration.   If the default values are desired, you must save them
+     via the SAVE (F8) function.
+.P
+MONITOR TYPE (Default = Mono)                                          9701
+
+Use  the UP/DOWN arrow keys to select either a MONOCHROME or COLOR  display
+monitor.
+
+.P
+TEXT (Default = Yellow)                                                9702
+
+Use the UP/DOWN arrow keys to select the desired color for screen TEXT.
+
+.P
+STATUS LINE (Default = White)                                          9703
+
+Use  the UP/DOWN arrow keys to select the desired color for the STATUS LINE
+located in the lower portion of the top right-side window.
+
+.P
+MESSAGE LINE (Default = White)                                         9704
+
+Use the UP/DOWN arrow keys to select the desired color for the MESSAGE LINE
+located in the upper portion of the top right-side window.
+
+.P
+HIGHLIGHT (Default = White)                                            9705
+
+Use the UP/DOWN arrow keys to select the desired color for the  HIGHLIGHTED
+screen text.
+
+.P
+BACKGROUND (Default = Blue)                                            9706
+
+Use  the  UP/DOWN  arrow keys to select the desired color  for  the  screen
+BACKGROUND.
+
+.P
+SCREEN OUTLINE (Default = Lt Red)                                      9707
+
+Use  the  UP/DOWN  arrow  keys to select the desired color  of  the  screen
+OUTLINE.
+
+.P

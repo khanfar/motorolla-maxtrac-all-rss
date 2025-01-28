@@ -1,0 +1,137 @@
+From: dbm@cats.njit.edu (Dean McDermott - WB2CMN)
+Newsgroups: rec.radio.amateur.misc
+Subject: Re: Any info on Moto gear for 902mhz FM?
+Keywords: Motorola FM 900 902
+Message-ID: <1992Oct25.044908.24872@njitgw.njit.edu>
+Date: 25 Oct 92 04:49:08 GMT
+References: <1992Oct24.082655.7322@grian.cps.altadena.ca.us>
+Sender: news@njit.edu
+Distribution: usa
+Organization: New Jersey Institute of Technology, Newark, N.J.
+Lines: 25
+Nntp-Posting-Host: cats.njit.edu
+
+
+ 
+Yes the Maxtrac will work on the 900 ham band. However the Spectra is much
+harder. I have one Maxtrac converted and while getting to work took quite
+some time the final mod is not that bad. 
+
+Conversion:
+
+Start with a 900 Mhz Maxtrac. If is is conventional then fine, if not then
+order FVN4019A conventional firmware. You will also need to order two Murata
+filters (# DFC3R915PO25BTD) from a Murata Erie dist in your area. Locate two
+chip caps with a value of 1.1 pf.
+
+
+Install firmware if not already conventional. Remove the two Murata filters
+in the front end and replace with the above so that the radio will pass 915
++- 12.5 freqs. Locate the VCO and using a LARGE solder iron heat the top
+cover and pry it off. Now looking into VCO you will see that the small board
+has components on left and right halfs and they are a mirror of each other
+(the left and right). Looking in two corners you will see chips with chip
+diode directly under it. It is very very tight in this 
+
+
+Remove these two chip caps that are next to the chip diodes. Replace with
+the 1.1 pf caps *** NOTE: The value of these caps might vary -- you may have
+to put anything from 1.1 to 1.9 pf in -- DO NOT use too much solder when
+installing caps. It is very easy to damage the VCO!!!!
+
+Now put everything back together. I have mine operating with a RX area of
+920 to 921 and TX of 907 - 909. Programming of the radio will require Maxtrac
+conventional software and when the program tells you the frq you entered is
+out of band disreguard it and continue.
+
+I am working on Spectra but not sure if this radio will make it. Anyone that
+has info on the Spectra please contact me.
+
+Dean
+dbm@cats.njit.edu
+
+
+From: dbm@cats.njit.edu (Dean McDermott - WB2CMN)
+Newsgroups: rec.radio.amateur.misc
+Subject: Re: Standard 800 Portable
+Message-ID: <1992Dec10.084258.10918@njitgw.njit.edu>
+Date: 10 Dec 92 08:42:58 GMT
+References: <1992Dec9.004644.9797@njitgw.njit.edu> <1g561vINN284@west.West.Sun.COM> <1992Dec10.055544.9878@njitgw.njit.edu>
+Sender: news@njit.edu
+Organization: New Jersey Institute of Technology, Newark, N.J.
+Lines: 71
+Nntp-Posting-Host: cats.njit.edu
+
+
+                   Maxtrax 900 Ham Conversion        5/30/92
+    
+    
+    
+    
+    Confirm that your radio had firmware FVN4019A. If not order this 
+    from Motorola (510291S04). Using Motorola MAXTRAC (conventional) 
+    software program ham freqs into radio. Software will warn that 
+    freqs are not authorized, press F2 to continue entering ham freqs. 
+    
+    
+    Once this is done perform VCO mods on next page.
+    
+    
+    After radio is programmed and VCO mods made radio should have rated 
+    TX power but poor RX sens. This is due to the two 932 Mhz filters 
+    in front end. Replace FL1 and FL2 with Murata DCF3R915P025BTD 
+    filters. This will correct the condition.
+    
+    
+    Note: You will be working with CMOS!!!!! Use Caution!!!!!
+          VCO and Filter MODS are made on RF board.
+          Firmware chip is U804 on Logic board.
+          Maxtrac software can be bought from Motorola or a local shop   
+          with software can program radio.
+    
+    
+                    Motorola Maxtrac 900 VCO
+    
+    
+    
+    
+           .......................................................
+           :                                                     :
+           :                                                     :
+           : --//--                                      --//--  :
+           :  (RX)                                        (TX)   :
+           :                                                     :
+           :                                                     :
+           :                                                     :
+           :                                                     :
+           :                                                     :
+           :                                                     :
+           :                                                     :
+           :                                                     :
+           :                                                     :
+           :                                                     :
+           .......................................................
+    
+    
+    
+    RX VCO Mod
+    
+     Remove RX cap, Remove TX cap, Place TX cap in location of original 
+    RX cap. (Note- You may be able to leave orig RX cap in place and 
+    add a large amount of solder to right side of cap while metering 
+    Steering Line voltage. Add solder until S/L voltage is in the area 
+    of 7 volts when radio is on your highest receive ham freq).
+    
+    
+    TX VCO Mod
+    
+     After removing TX cap place a 1.7 pf cap in it's place. If this 
+    value is not available you may place a high stability variable cap 
+    of .5 to 4 or 5 pf in this place. If a variable cap is used you may 
+    have to use metal tape to make a cover with a hole for the cap to 
+    fit. Use as little solder as possable on the TX side. You should 
+    have a S/L voltage of no less then 2 volts while transmitting on 
+    your lowest freq.
+     
+
+

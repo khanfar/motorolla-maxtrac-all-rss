@@ -1,0 +1,97 @@
+                              SITETOOL.DOC
+                              Version 1.1
+                              Sept 6, 1995
+
+Introduction: 
+   SITETOOL.EXE is a TOOL to convert Site Files from "older" MaxTrac LS RSS 
+Version R01.00.00 to a "new" format recognized by Version R02.00.00.
+If you have not created Site Files with the R01.00.00 Version you do not
+need to use this program.
+
+SITETOOL Use:
+    The RSS for the LTR Trunking Radios, MTX-LS (newly released Portable) 
+R01.00.00 and the MaxTrac LS (Mobile) R02.00.00 are to share Site Files. 
+To accomplish this several changes have been made in the Site File format 
+of the RSS.  Note the Site Database File(s) MAXT_LSI.DBF are no longer 
+used by these new RSS releases.  For your "older" Site Files to be 
+readable by the "new" RSS's they must be converted by SITETOOL.EXE.  
+SITETOOL will automatically save the file with the current date of 
+conversion.  Please note that SITETOOL is used only for the 800 Mhz radio 
+as the 900 Mhz radio is not available at this time.   
+
+WARNING: !!!!!!!!
+         You are STRONGLY ADVISED to perform a complete DOS backup
+         of all Site Files and MAXT_LSI.DBF file(s) prior to performing
+         this procedure. Note that converted Site Files will not be 
+         readable to the "older" RSS version.  Also, the name of the 
+         source Site File and the target file cannot be the same. 
+         The RSS default directory for saving Site Files is 
+         C:\mrss\maxtls\site.
+
+SITETOOL is installed in the directory C:\mrss\maxtls. It is recommended 
+that you copy SITETOOL.EXE from this directory into your Site File directory.
+To use the tool, type SITETOOL with the required arguments at the DOS
+prompt.  Listed below are the definitions of these arguments.
+         
+Syntax
+     SITETOOL  argument_1  argument_2  [argument_3] [argument_4]
+
+Parameters
+    argument_1 : [drive:][path] filename
+                 Specifies the location and filename of the original
+                 (source) Site File to be converted.
+
+    argument_2 : [drive:][path] filename
+                 Specifies the destination of the converted (target) Site 
+                 File.
+
+    argument_3 : [number]
+                 This is the Site Number which will be saved in the
+                 target Site File. Allowable values are from 1 to 255. 
+                 If this argument is not given, the value defaults to "001". 
+                 *See Note.
+
+    argument_4 : [number]
+                 This is the Site Version which will be saved in the 
+                 target Site File. Allowable values are from 1 to 255.
+                 If this argument is not given, the value defaults to "001". 
+                 *See Note.
+
+NOTE: The new RSS's will create Site Files with the following convention. 
+The filename default is "SITE_num.ver" where "num" and "ver" are the values 
+used from arguments 3 and 4.  To be consistent with this naming convention 
+supply arguments 3 and 4 appropriately.  If these arguments are not given, 
+both values default to "001".  These values can be edited later from within 
+the RSS.
+
+
+
+  Example:
+
+SITETOOL C:\mrss\maxls\site\site0001.001 C:\mrss\maxls\site\site_001.255 001 255
+
+If SITETOOL.EXE has been copied into your Site File directory as recommended,
+the pathname can be eliminated as shown below:
+
+SITETOOL site0001.001 site_001.255 001 255
+
+
+
+Converted Site Files Number and Version values can only be from 1 to 255. 
+If any of your old Site Files began with the number zero then you can 
+increase the target Site File number and version by one.
+
+Helpful Hints:     
+     Since only one Site File at a time can be converted, it is useful
+to create a DOS batch file to run multiple conversions.  
+
+EXAMPLE: 
+         FILENAME: SITE.BAT
+
+         sitetool site0001.001 site_001.001 001 > site_001.dat
+         sitetool site0002.001 site_002.001 002 > site_002.dat
+
+      In this example, the Site Number argument is given and each Version 
+is defaulted to "001".  The use of ">" redirects the output for later 
+viewing.  Refer to your DOS manual or DOS on-line help for further
+explanation of batch files and redirection.

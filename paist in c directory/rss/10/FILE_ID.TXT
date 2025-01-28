@@ -1,0 +1,5 @@
+rss for motorola gm300 ver. 3.00.00.  
+with extended .mdf file for up to 40 ch 
+but just for model number M33GMC29C2__. Zip file includes
+also orginal gm300.mdf file as backup.
+www.hackersrussia.ru

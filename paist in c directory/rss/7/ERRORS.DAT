@@ -1,0 +1,236 @@
+----- POPWARN MESSAGE ERROR -----
+Index into POPWARN message array has
+been exceeded by the RSS; Please Contact
+Motorola Service, and Report This Error.
+You Do NOT Have Enough Memory To Run
+This Application. Please Check DOS
+Files CONFIG.SYS + AUTOEXEC.BAT, and
+Remove Unnecessary Memory Allocations.
+
+
+
+
+-NO- VALID Comm. Port Address Found
+in BIOS DATA Area (40:0-7). Please Re-
+Configure PC for -1- Comm Port and Re-
+Boot. Use DOS 'MODE' to Validate Port.
+The SELECTED Comm. Port is INVALID;
+Using F9/F3 'SETUP/CONFIGURE COMPUTER',
+Please Select a VALID Comm. Port.
+
+!!  WARNING  !!  WARNING  !!
+Codeplug modifications have NOT been
+PROGRAMMED or SAVED and Will be LOST.
+
+A CodePlug Must Be READ
+Via GET/SAVE Function Before
+CHANGE/VIEW.
+
+A CodePlug Must Be READ
+Via GET/SAVE Function Before
+PRINTING.
+
+A CodePlug Must Be READ
+Via GET/SAVE Function Before
+Control Head can be changed.
+
+Archive File Does NOT exist
+Continue to Create New File
+Exit to Abort
+
+Radio Calibration Is Complete !
+ARCHIVE Tuning Data via GET/SAVE Menu !
+-READ- Radio Codeplug -FIRST-,
+Then SAVE to ARCHIVE FILE !!!.
+Radio Calibration is -NOT- Complete !
+
+
+
+No Codeplug Data To SAVE,
+Operation Was Aborted.
+
+
+Radio MUST Be Connected
+AND Powered Up to Continue
+With This Procedure.
+
+Time Out Timer Expired
+
+Radio DeKeyed
+
+CANNOT Process Entered Data
+Please Enter Again
+
+
+Model NOT Supported.
+
+
+
+New values have NOT been saved.
+
+
+
+Press F2 for Blank Board
+Initialization.
+
+
+Set the RF POWER TRIM POT to MID-
+ROTATION and set the radio power
+supply to 13.6 +/- 0.1 Volts with
+the radio keyed.
+1. Set the RF POWER TRIM POT
+     to MID-ROTATION.
+2. Set the RF DRIVE LIMIT POT
+     fully CLOCKWISE (cw).
+3. Set the radio power supply to
+     13.4 +/- 0.1 Volts while
+     the radio is keyed.
+
+No Tuning Is Affected By
+Replacing This Board.
+
+
+!!  WARNING  !!  WARNING  !!
+You have just changed your
+HOME MODE.  The home mode
+now defaults to mode 1.
+!!  WARNING  !!  WARNING  !!
+You have just changed your MDC
+EMERGENCY DATA MODE.  The MDC
+data mode now defaults to mode 1.
+!!  WARNING  !!  WARNING  !!
+EXCESSIVE POWER INCREASE !
+Transmitter Operation Above Rated Power
+Levels May Damage Power Amplifier.
+!!  WARNING  !!  WARNING  !!
+You may NOT enable
+Front/Rear control heads while MDC
+Emergency has already been enabled.
+!!  WARNING  !!  WARNING  !!
+Zone/Mode control head
+display cannot be enabled, number of
+modes exceed 32 mode Zone/Mode limit.
+!!  WARNING  !!  WARNING  !!
+If This Option Selected -AND- Frequency
+Separation Within Scan List is Greater
+Than 5 MHz., Scan Sensitivity DECREASED.
+!!  WARNING  !!  WARNING  !!
+SingleTone Encode requires
+the Advanced (A7) Control Head
+
+WARNING:  Control Head Type mismatch!!!
+If you wish to continue, reprogram the
+target radio with correct control head
+type after cloning or it will not work!
+!!  WARNING  !!  WARNING  !!
+If you enable STAT-ALERT
+emergency, you will disable
+Front/Rear Control Heads.
+!!  WARNING  !!  WARNING  !!
+You will disable Zone/Mode
+Control Head displays if your mode
+list exceeds 32 modes.
+!!  WARNING  !!  WARNING  !!
+You are about to
+DELETE your STAT-ALERT
+EMERGENCY DATA MODE number.
+!!  WARNING  !!  WARNING  !!
+You are about to
+DELETE your HOME MODE
+
+CAUTION: STAT-ALERT Data Mode, Home
+Mode, Scan options, Scan List, Mode
+Config. may need editing after
+changing control head type!!
+Help File 'M1000.HLP' -NOT- Found.
+Please Restore This File to the Current
+Working (RSS) Directory, -OR- Re-INSTALL
+the RSS from Installation Diskette.
+Press --F2-- to Exit to DOS
+-or-  Press -F10- to Continue.
+
+
+No Codeplug Data To CLONE,
+Operation Was Aborted.
+
+
+CHECKSUM will be
+corrected ONLY for
+changes made to
+locations #B600 to #B62D.
+Bad Copyright Message
+in EXTERNAL Code Plug
+
+
+Bad Copyright Message
+in INTERNAL Code Plug
+
+
+Control head does not
+match model number.
+
+
+Bad MOB checksum
+
+
+
+Band Flags do -NOT-
+match model number.
+
+
+Band Edges do -NOT-
+match model number.
+
+
+Scan List Is -NOT- Mode Slaved.
+
+
+
+The first MPL pair
+must be always be
+enabled.
+
+MPL is not valid
+for this radio model.
+
+
+Wrong Compensation Adder Values
+Must Readjust Compensation Adders
+
+
+Radio Updates Warp Values
+Every 10 Seconds, Therefore
+Measured Frequency Will
+NOT Reflect Changes Immediately.
+New values do not need to be
+saved to the codeplug
+when setting 75 watt drive limit.
+
+MPL Is -NOT- Enabled.
+
+
+
+A2 Clamshell Models do NOT
+support Scan functions.
+
+
+Configure jumpers JU1501
+and JU1502 as they were set
+on the original interconnect
+board.
+Operation Was Aborted
+Consult Manual.
+
+
+!!  WARNING  !!  WARNING  !!
+SERIAL NUMBER
+does NOT match radio.
+
+--------TEST MESSAGE-------
+Testing POPWARN message
+DISPLAY -and- RESPOND code/text/function
+12345678 1 2345678 2 2345678 3 2345678 4
+(null)
+(null)
+(null)
+(null)

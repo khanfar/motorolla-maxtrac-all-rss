@@ -1,0 +1,143 @@
+
+       The Motorola -- MaxTracùLS LTR Trunking -- Radio Service Software,
+       RVN-4139, has been updated as follows;
+
+       Part #......................... RVN-4139-A
+            includes 3.5" installation diskette
+            RSS User's Manual #....... 68P8-1078C79    
+
+       Software Version............... R01.00.00
+       Software Date.................. 06-MAY-95
+
+  1. - The SITE Sub-Directory is now the DEFAULT storage for SITE FILES.
+
+  2. - !! IMPORTANT !!  The STACK size of this RSS has been increased,
+       to enhance stability in a normal DOS environment (this does NOT affect
+       execution memory requirements).  If your environment includes elements
+       which create abnormal quantities of hardware/software interrupts, then
+       we STRONGLY recommend the following statement be inserted into your
+       CONFIG.SYS file (DOS 5.x/6.x):
+
+                          STACKS=8,512
+
+       This tells DOS to furnish stack space to hardware interrupts which
+       occur during RSS execution, thereby reducing the RSS stack loading, and
+       avoiding errant DOS/application behaviours.  This statement WILL reduce
+       the amount of conventional memory available by approximately 4 Kb.
+
+  3. - The RSS CodePlug ARCHIVE and SITE File -BACKUP- default is now
+       [path] Sub-Directory        [C:\MRSS\MAXLS\] BACKUP.
+       For FLOPPY diskette backup, Please see Item 4-(B) below.
+
+  4. - The Install batch file, A:HDINSTAL.BAT;
+
+       (A) Defaults installation to Hard Drive C:\MRSS\MAXLS; you can
+       edit HDINSTAL.BAT to change default drive and/or the sub-directory.
+
+       (B) Creates sub-directory "C:\MRSS\MAXLS\BACKUP".  To backup
+       on floppy diskettes, use MAIN MENU "F9 - SETUP" and "F3 - PC CONFIG"
+       and enter "drive_letter:" (e.g. "A:") in the Backup field.  If
+       you wish this to be the default setup, use "F8 - SAVE" to save the
+       Configuration File.  Also, temporary setting can be done via the
+       "F2 - CHANGE ARCHIVE" function on LOAD/SAVE sub-menus.
+
+  5. - If you are replacing RSS HVN-9645 (Radius/M500 LTR Trunking)
+       with this RSS, Please Read Appendix (-A-), below.
+
+  6. - The INSTALLATION DISKETTE for this RSS has all files marked "Read Only"
+       via the DOS command "attrib +r *.*".  It is recommended that the user
+       never execute the RSS from this original diskette.  If a DOS "diskcopy"
+       of the original is made, the attribute bits are also copied.  On the
+       COPY, the following files should be unlocked via the DOS command
+       "attrib -r <file>", before execution;
+                           MAXT_LS.CFG
+
+  7. - This RSS executes under DOS, in conventional memory (1st 640 KB memory).
+       After INITIAL execution, conventional memory is dynamically allocated
+       for data/file functions ( e.g. more files = more memory required ),
+       and if the RSS cannot allocate enough conventional memory, an error
+       message is given. Make more conventional memory available by using DOS
+       "HIMEM.SYS" and "DOS=HIGH", and using DOS 5x/6x "MEM /C" to list memory
+       allocations from CONFIG.SYS and AUTOEXEC.BAT, removing any unnecessary
+       items from those files.
+
+  8. - Corrected RSS handling of CTRL-BRK and CTRL-C; Execution of RSS is no
+       longer stopped by these keystrokes.
+
+  9. - Communications Port (COM1 - COM2) IC (UART) now completely
+       initialized upon startup.  Prevents interference from prior
+       applications when communicating with Radio via the RIB.
+
+ 10. - Update to interface more reliably with the Radio on faster 386/486
+       machines.  This version has Radio Bus Timing controlled by PC Timer IC.
+
+ 11. - This RSS now has no EXTERNAL OVERLAY (*.OVL) files.  This allows
+       slightly faster loading and execution, and reduces execution memory
+       requirements.  The RSS executable file (*.EXE) MUST be run from the
+       working directory/disk, so that INTERNAL OVERLAYS can be found.
+       
+       To minimize hard disk space usage, use DOS command "DEL *.OVL" to delete
+       the old overlay files in the installation Directory.
+
+ 12. - Warning message text now contained in new file ERRORS.DAT.
+
+ 13. - Corrected problems with HELP screen printing; 1st line of
+       successive screens (after 1st) no longer blanked.
+
+  NOTE: This RSS is NO LONGER PACKAGED on 5.25" floppy diskettes.
+        (C) Copyright MOTOROLA Inc. 1986, 1995.  All Rights Reserved.
+
+   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+   Appendix (-A-);  -  Converting From RSS HVN-9645 (Radius/M500 LTR Trunking)
+
+   You are strongly advised to perform a complete PC-DOS backup (via DOS "COPY"
+   or "XCOPY" command) of ALL files in the following sub-directories, to a
+   floppy diskette, BEFORE performing the below installation;
+
+       (Drive:)\MRSS\RADMTRNK
+       (Drive:)\MRSS\RADMTRNK\ARCHIVE
+
+   The major differences between HVN-9645 and this RSS package are the default
+   PATH and FILE names under the PC-DOS Operating System.  This RSS creates the
+   following DEFAULT paths for normal installation:
+
+       (Drive:)\MRSS\MAXLS         -   Main Executable/Utility Files
+       (Drive:)\MRSS\MAXLS\ARCHIVE -   CODEPLUG and ARCHIVE DATABASE Files.
+       (Drive:)\MRSS\MAXLS\SITE    -   SITE and ARCHIVE DATABASE Files.
+       (Drive:)\MRSS\MAXLS\BACKUP  -   Default Backup Sub-Directory For -Both-
+                                       CODEPLUG and SITE Files/DataBases.
+
+   Normal installation will create all four sub-directories, and copy the Main
+   Executable and Utility files from the Installation diskette.  You will need
+   to copy your existing CODEPLUG, SITE and ARCHIVE DATABASE files to the new
+   sub-directories, and RE-NAME the ARCHIVE DATABASE FILES.
+
+   STEP                        ACTION / DOS COMMANDS
+   ----                        ---------------------
+   1) Install this RSS;        Insert Diskette in Floppy Drive (A: or B:).
+                               Type "(A: or B:)", Then "HDINSTAL (C: or D:)".
+
+   2) Go To CODEPLUG Archive;  Type "(C: or D:)", Then "CD \MRSS\MAXLS\ARCHIVE".
+
+   3) Copy CODEPLUG FILES;     "COPY  \MRSS\RADMTRNK\ARCHIVE\A*.*".
+                               "COPY  \MRSS\RADMTRNK\ARCHIVE\B*.*".
+
+   4) Copy ARCHIVE DATABASE    "COPY  \MRSS\RADMTRNK\ARCHIVE\RADMTRNK.DBF".
+
+   5) ReName ARCHIVE DATABASE  "REN  *.DBF  MAXT_LS.DBF".
+
+   6) Go To SITE FILE Archive  "CD  ..\SITE".        
+
+   7) Copy SITE FILES;         "COPY  \MRSS\RADMTRNK\ARCHIVE\SITE*.*"
+
+   8) Copy ARCHIVE DATABASE    "COPY  \MRSS\RADMTRNK\ARCHIVE\RADMSITE.DBF".
+
+   9) ReName ARCHIVE DATABASE  "REN  *.DBF  MAXT_LSI.DBF".
+
+
+   At this point, if you wish to restore backup codeplug/site/database files
+   from a floppy diskette, you can;
+
+   10) Go To BACKUP Sub-Dir.;  "CD  ..\BACKUP".
+
+   11) Copy backup files;      "COPY  (A: or B:)*.*".

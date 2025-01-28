@@ -1,0 +1,308 @@
+--- POPWARN MSG. ERROR ---
+Index into POPWARN msg. array has
+been exceeded by RSS; Please Contact
+Motorola Service, and Report This Error.
+No Compatible Signalling
+System is Defined.
+
+
+Operation Was Aborted
+
+
+
+If continue, you will lose data
+retrieved from radio.
+
+
+Archive File Does NOT exist
+Continue to Create New File
+Exit to Abort
+
+!!! INITIALIZED BOARD !!!.
+Board MUST be BLANK to continue.
+
+
+Help File Cannot Be Found
+Insert Help Disk
+Press F2 to Continue
+
+Radio MUST Be Connected
+And Powered Up To Continue
+With This Procedure.
+
+!!! SPECIAL VERSION RADIO !!!
+A special version radio can not be
+programmed with this programmer
+
+!!! SPECIAL PROGRAMMER !!!
+A normal radio can not be programmed
+with an SP-2 programmer
+
+!!! SPECIAL PROGRAMMER !!!
+A normal radio can not be programmed
+with an SP-3 programmer
+
+Master Codeplug Data
+Must be Read First.
+
+
+No Codeplug Data To Save
+
+
+
+! WARNING ! WARNING !
+Codeplug Modifications Have NOT Been
+PROGRAMMED or SAVED and Will Be Lost
+
+Press F2 to Complete Radio
+Programming
+
+
+No Codeplug Data To Program
+
+
+
+! WARNING ! WARNING !
+Close Emergency Switch or Radio will
+TRANSMIT immediately after being
+programmed
+! WARNING ! WARNING !
+Earlier RSS versions will be
+unusable. This is IRREVERSABLE !!!.
+
+F2 = ADD Phone Repertoire.
+F10 = Do NOT ADD Phone Repertoire.
+
+
+You have exceeded the radios available
+
+
+
+! WARNING ! WARNING !
+You will NO LONGER be able to use
+EARLIER version of the field
+programmer !!!!!!!!
+A CodePlug Must Be READ
+Via GET/SAVE Function
+Before CHANGE/VIEW.
+
+This Model Does Not Allow
+Conventional Modes.
+
+
+Press -F2- to Exit to DOS or
+Press -F10- to Continue.
+
+
+No Conventional Modes
+Press F2 to CREATE a Mode
+
+
+New Values Have Not Been Saved
+
+
+
+Wrong Compensation Adder Values
+Must Readjust Compensation Adders
+
+
+! WARNING ! WARNING !
+      EXCESSIVE POWER INCREASE !
+Transmitter Operation Above Rated Power
+Levels May Damage Power Amplifier.
+The Radio Updates Warp Values
+Every 10 Seconds,Therefore
+The Measured Frequency Will
+Not Reflect Changes Immediately
+A CodePlug Must Be READ
+Via GET/SAVE Function
+Before Printing.
+
+This ACC. EXTERNAL conflicts with DTMF.
+
+
+
+Is an internal option board
+installed in your radio?
+
+
+Model Definition File NOT FOUND;
+Restore to current Drive/Directory
+From Installation Disk
+Press F2 to Continue.
+External Accessory is
+NOT compatible with DTMF
+
+
+No Tuning Is Affected By
+Replacing This Board.
+
+
+Radio Calibration Is Complete!
+
+
+
+This Information Should Be Archived
+Using The GET/SAVE Menu.
+
+
+Radio Calibration is NOT Complete
+
+
+
+This Will Erase Scan List On this
+Mode!
+
+
+Time Out Timer Expired.
+
+Radio Dekeyed,
+
+Voice Selcall
+Not Allowed
+with MDC-1200
+
+Since the group id is LONGER
+than the individual id
+it will be blanked out.
+
+Cannot change signalling type
+because it is used by a call block
+or by the phone repertoire.
+
+Delete ALL reference (emergency encode,
+phone repertoire, personality or call
+list entries) to this signalling
+system or INVALID data may appear.
+Serial Bus Error
+
+
+
+Radio Not Programmed
+
+
+
+Operation Aborted
+
+
+
+! WARNING ! WARNING !
+SERIAL NUMBER Does NOT Match RADIO
+
+
+A Replacement Logic Board Must Be
+Initialized.
+See Service Manual Procedures.
+
+An Error Has Been Detected in Radio
+Code Plug.  Replace Logic Board
+Per Service Manual Procedures.
+
+Model NOT Supported.
+
+
+
+The Version Of Software In Your Radio
+Is NOT Supported. You May NOT Proceed.
+Contact MOTOROLA National Parts
+For Current Radio Service Software.
+Microprocessor Configuration Register
+Is Corrupted. Replace Logic Board
+Per Service Manual Procedures.
+
+Unable to Process Entered Data
+Please Enter Data Again
+
+
+Sorry, Trunked Radios
+Can Not be Cloned.
+
+
+F2 = ADD Phone Repertoire.
+Earlier RSS versions will be
+unusable. This is IRREVERSABLE !!!.
+F10 = Do NOT ADD Phone Repertoire.
+Function Not Supported
+For This Model.
+
+
+Radio Calibration Is Complete!
+This Information Should Be Archived
+Using the GET/SAVE Menu.
+
+Serial Bus Error
+Radio Not Programmed
+Operation Aborted
+
+A CodePlug Must Be READ
+Via GET/SAVE Function
+Before VIEW.
+
+A Site File Must Be READ
+Via Site Maintenance
+Function Before VIEW.
+
+No Site Data To Save
+
+
+
+No Ltr Trunked Modes
+Press F2 to CREATE a Mode
+
+
+Invalid Site Block Number.
+Check Each Ltr Trunking 
+Mode Before Proceeding.
+
+Invalid Site Access Block
+Number. Check Each Ltr Trunking
+Mode Before Proceeding.
+
+Delete All References to
+This Site Block or INVALID
+Data May Appear.
+
+Delete All References to
+This Site Access Block or
+INVALID Data May Appear.
+
+Radio memory exceeded -
+can't add information.
+
+
+Product Line MISMATCH!
+Operation Was Aborted.
+
+
+Model Number MISMATCH!
+Operation Was Aborted.
+
+
+Codeplug Version MISMATCH!
+Operation Was Aborted.
+
+
+! WARNING ! WARNING !
+Site File Modifications Have NOT
+Been SAVED and Will Be Lost
+
+MEMORY ALLOCATION ERROR !!! You Do NOT
+Have Enough CONVENTIONAL MEMORY To Run
+This Application. Reduce Allocations
+In Your CONFIG.SYS and AUTOEXEC.BAT.
+Information about the
+radio CANNOT be retrieved
+after board is blanked.
+TUNING PARAMETERS WILL REMAIN UNAFFECTED
+Information about the
+radio CANNOT be retrieved
+after board is blanked.
+TUNING PARAMETERS WILL BE BLANKED!!!
+---TEST MESSAGE---
+Testing POPWARNING
+code/text
+12345678 1 2345678 2 2345678 3 2345678 4
+(null)
+(null)
+(null)
+(null)
